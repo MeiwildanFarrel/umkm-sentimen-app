@@ -428,7 +428,7 @@ def render_login():
                 email = st.text_input("Email", placeholder="nama@diskop.banyumaskab.go.id")
                 sandi = st.text_input("Password", type="password",
                                       placeholder="Masukkan kata sandi")
-                masuk = st.form_submit_button("Masuk", use_container_width=True)
+                masuk = st.form_submit_button("Masuk", width="stretch")
             if masuk:
                 if email.strip() == ADMIN_EMAIL and sandi == ADMIN_PASS:
                     st.session_state.login_ok = True
@@ -468,7 +468,7 @@ def render_sidebar():
         for kode, label in MENU:
             tipe = "primary" if kode == aktif else "secondary"
             if st.button(label, key=f"nav_{kode}", type=tipe,
-                         use_container_width=True):
+                         width="stretch"):
                 st.session_state.halaman = kode
                 if kode == "daftar":
                     st.session_state.daftar_page = 0
@@ -488,7 +488,7 @@ def render_sidebar():
             unsafe_allow_html=True,
         )
         if st.button("Keluar", key="btn_keluar", type="secondary",
-                     use_container_width=True):
+                     width="stretch"):
             st.session_state.login_ok = False
             st.session_state.halaman = "login"
             st.rerun()
@@ -572,7 +572,7 @@ def page_overview():
             linecolor="#E5E7EB",
             tickfont=dict(color="#374151"),
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
         st.caption("Persentase UMKM berstatus Kritis / Perlu Perhatian yang "
                    "memiliki keluhan pada tiap aspek.")
     else:
@@ -1066,7 +1066,7 @@ def page_analisis():
             if top:
                 st.dataframe(
                     pd.DataFrame(top, columns=["Kata / Fitur", "Bobot TF-IDF"]),
-                    use_container_width=True, hide_index=True)
+                    width="stretch", hide_index=True)
             else:
                 st.caption("Tidak ada fitur yang dikenali dari ulasan ini.")
 
@@ -1204,7 +1204,7 @@ def page_perbandingan():
         height=400,
     )
     fig.update_xaxes(showgrid=False)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     # ── Confusion Matrix ────────────────────────────────────────────────────
     judul_seksi("Confusion Matrix per Model")
@@ -1349,7 +1349,7 @@ def page_laporan():
                 margin=dict(t=10, b=30, l=80, r=60),
                 height=220, template="plotly_white",
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
 
     with lap_kanan:
         judul_seksi("Ringkasan per Kategori")
@@ -1413,7 +1413,7 @@ def page_laporan():
             "Rekomendasi 2": rek[1] if len(rek) > 1 else "",
         })
     df_laporan = pd.DataFrame(baris)
-    st.dataframe(df_laporan, use_container_width=True, hide_index=True, height=380)
+    st.dataframe(df_laporan, width="stretch", hide_index=True, height=380)
 
     csv_data = df_laporan.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig")
     st.download_button(
