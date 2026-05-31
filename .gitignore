@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# IDE & tools
+.vscode/
+.idea/
+.claude/
+
+# Screenshots (tidak perlu di-deploy)
+screenshot_*.png
+
+# File development / catatan internal
+PROMPT_OPUS_ROMBAK_TOTAL.md
+generate_umkm.py
+train.py
+
+# OS
+.DS_Store
+Thumbs.db
