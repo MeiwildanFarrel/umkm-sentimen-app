@@ -1,0 +1,2283 @@
+{
+  "generated_at": "2026-05-23 17:37:14",
+  "total_umkm": 40,
+  "ringkasan": {
+    "kritis": 9,
+    "perlu_perhatian": 20,
+    "pantau": 11,
+    "baik": 0
+  },
+  "aspek_keluhan_global": {
+    "Kualitas": 365,
+    "Pengiriman": 206,
+    "Packaging": 97,
+    "Harga": 57
+  },
+  "umkm": [
+    {
+      "id": "U001",
+      "nama": "Mendoan Pak Karjo",
+      "pemilik": "Karjo Sutrisno",
+      "kategori": "Kuliner",
+      "lokasi": "Purwokerto Timur",
+      "produk_utama": "Mendoan & gorengan khas Banyumas",
+      "skor": 45,
+      "status": "Perlu Perhatian",
+      "total_review": 20,
+      "review_positif": 9,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 43,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 40,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 29,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "seller",
+        "bagus",
+        "beli",
+        "langgan",
+        "kualitas"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "beli",
+        "tidak",
+        "kecewa",
+        "enak"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Ikutkan dalam pelatihan packaging Diskop"
+      ],
+      "contoh_review_positif": "Enakk banget, isinya banyak, saosnya mantap. Seller ramah. Thank you!",
+      "contoh_review_negatif": "kecewa"
+    },
+    {
+      "id": "U002",
+      "nama": "Keripik Tempe Bu Sari",
+      "pemilik": "Sari Wahyuni",
+      "kategori": "Kuliner",
+      "lokasi": "Karanglewas",
+      "produk_utama": "Keripik tempe aneka rasa",
+      "skor": 40,
+      "status": "Perlu Perhatian",
+      "total_review": 23,
+      "review_positif": 9,
+      "review_negatif": 14,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "mantap",
+        "kirim",
+        "seller",
+        "barang"
+      ],
+      "kata_kunci_negatif": [
+        "kecewa",
+        "beli",
+        "gak",
+        "salah",
+        "kulkas"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "Enakk banget, isinya banyak, saosnya mantap. Seller ramah. Thank you!",
+      "contoh_review_negatif": "Rasanya tidak sesuai ekspektasi, bener� kecewa. Yang emak hanya VALRHONA CHOCOLATE, sisanya gak enak semua. INTINYA: KECEWA"
+    },
+    {
+      "id": "U003",
+      "nama": "Getuk Goreng Pak Tohir",
+      "pemilik": "M. Tohir Arifin",
+      "kategori": "Kuliner",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Getuk goreng original & modern",
+      "skor": 48,
+      "status": "Perlu Perhatian",
+      "total_review": 25,
+      "review_positif": 12,
+      "review_negatif": 13,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 36,
+          "terdeteksi": true,
+          "keluhan_count": 9
+        }
+      },
+      "kata_kunci_positif": [
+        "kirim",
+        "cepat",
+        "luv",
+        "harga",
+        "packing"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "kecewa",
+        "kaleng",
+        "tgl",
+        "tempe"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "LENGKAP BAGUS PENGIRIMAN CEPAT DAN TEPAT TERPERCAYAA NOMOR 1 SEINDONESIA",
+      "contoh_review_negatif": "keripik tempe pecah2. packingnya kopong. Edit: rasanya juga asin banget, beh ga recommended yah, mecin banyak. orang **** juga tau bisa dikomplain, bahkan ga pake asuransi pun bisa komplain. cuma worth ga sama waktu yg dihabiskan buat komplain? penjual yg ga bisa terima kritik..."
+    },
+    {
+      "id": "U004",
+      "nama": "Jamu Herbal Bu Tini",
+      "pemilik": "Martini Rahayu",
+      "kategori": "Kuliner",
+      "lokasi": "Banyumas",
+      "produk_utama": "Jamu tradisional & wedang rempah",
+      "skor": 45,
+      "status": "Perlu Perhatian",
+      "total_review": 29,
+      "review_positif": 13,
+      "review_negatif": 16,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 45,
+          "terdeteksi": true,
+          "keluhan_count": 11
+        },
+        "Packaging": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "kurma",
+        "enak",
+        "harga",
+        "langgan"
+      ],
+      "kata_kunci_negatif": [
+        "gak",
+        "bau",
+        "makan",
+        "enak",
+        "tidak"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "Terima Kasih Banyak Telah Melayani dengan Baik. Semua Products Bagus & Packaging nya aman. Products Sesuai foto, Harga bersaing dengan bagus. Pengiriman Cepat &Tepat. Very Recommended Shop &Seller. Next pasti akan sering blanja Lagi di sini deh. Semoga semakin maju & sukses ya.",
+      "contoh_review_negatif": "parah pake banget..kalengnya aja udh gimana bentuknya..peyot super parah..tolong packing lbh di perhatikan..!!! mengecewakan"
+    },
+    {
+      "id": "U005",
+      "nama": "Carang Gesing Mbak Wati",
+      "pemilik": "Dwi Lestari",
+      "kategori": "Kuliner",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Carang gesing & jenang Banyumas",
+      "skor": 54,
+      "status": "Perlu Perhatian",
+      "total_review": 18,
+      "review_positif": 10,
+      "review_negatif": 8,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Packaging": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 56,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "cepat",
+        "kirim",
+        "packing",
+        "bagus"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "mangga",
+        "kecewa",
+        "kaleng",
+        "busuk"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "respon cepat, barang aman, buahnya segar dan bagus, pengiriman cepat",
+      "contoh_review_negatif": "Barangnya sudah ga enak lagi, udah beda rasanya"
+    },
+    {
+      "id": "U006",
+      "nama": "Kopi Robusta Pak Slamet",
+      "pemilik": "Slamet Riyadi",
+      "kategori": "Kuliner",
+      "lokasi": "Lumbir",
+      "produk_utama": "Kopi robusta bubuk & biji",
+      "skor": 55,
+      "status": "Pantau",
+      "total_review": 25,
+      "review_positif": 14,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 65,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Packaging": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "seller",
+        "harga",
+        "barang",
+        "aman"
+      ],
+      "kata_kunci_negatif": [
+        "beli",
+        "kecewa",
+        "kirim",
+        "order",
+        "makan"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman"
+      ],
+      "contoh_review_positif": "Terima Kasih Banyak Telah Melayani dengan Baik. Semua Products Bagus & Packaging nya aman. Products Sesuai foto, Harga bersaing dengan bagus. Pengiriman Cepat &Tepat. Very Recommended Shop &Seller. Next pasti akan sering blanja Lagi di sini deh. Semoga semakin maju & sukses ya.",
+      "contoh_review_negatif": "produk tidak layak dimakan, sudah jamuran beberapa pcs, padahal tulisan expired date masih 1 bulan lagi. harap di qc ulang semua produk makanannya agar layak dimakan konsumen."
+    },
+    {
+      "id": "U007",
+      "nama": "Tempe Mendoan Bu Parmi",
+      "pemilik": "Suparmi Ningsih",
+      "kategori": "Kuliner",
+      "lokasi": "Kembaran",
+      "produk_utama": "Tempe mendoan & kedelai olahan",
+      "skor": 36,
+      "status": "Kritis",
+      "total_review": 30,
+      "review_positif": 11,
+      "review_negatif": 19,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 10
+        },
+        "Packaging": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 38,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "enak",
+        "harga",
+        "order",
+        "kali"
+      ],
+      "kata_kunci_negatif": [
+        "beli",
+        "jamur",
+        "pie",
+        "produk",
+        "pesan"
+      ],
+      "masalah_utama": "Packaging",
+      "rekomendasi": [
+        "Ikutkan dalam pelatihan packaging Diskop",
+        "Konsultasi desain kemasan dengan mentor",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "bagus produknya, enak marumiya rice topping furikake nya, bisa juga untuk bubur, harga terjangkau, recommended",
+      "contoh_review_negatif": "Kali ini kecewa, dapet yang udah kadaluarsa padahal baru minum sehari besoknya udah asem, gak bisa diminum.. mohon di pastikan tgl kadaluarsanya.. jujur kecewa banget"
+    },
+    {
+      "id": "U008",
+      "nama": "Gula Kelapa Pak Wahyu",
+      "pemilik": "Wahyu Santoso",
+      "kategori": "Kuliner",
+      "lokasi": "Cilongok",
+      "produk_utama": "Gula kelapa cetak & cair",
+      "skor": 39,
+      "status": "Kritis",
+      "total_review": 18,
+      "review_positif": 7,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Packaging": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 40,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "aman",
+        "cepat",
+        "enak",
+        "products"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "beli",
+        "enak",
+        "botol",
+        "jual"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "Terima Kasih Banyak Telah Melayani dengan Baik. Semua Products Bagus & Packaging nya aman. Products Sesuai foto, Harga bersaing dengan bagus. Pengiriman Cepat &Tepat. Very Recommended Shop &Seller. Next pasti akan sering blanja Lagi di sini deh. Semoga semakin maju & sukses ya.",
+      "contoh_review_negatif": "hancur patah patah semua"
+    },
+    {
+      "id": "U009",
+      "nama": "Snack Singkong Bu Lastri",
+      "pemilik": "Lastri Handayani",
+      "kategori": "Kuliner",
+      "lokasi": "Ajibarang",
+      "produk_utama": "Keripik singkong & olahan ubi",
+      "skor": 50,
+      "status": "Perlu Perhatian",
+      "total_review": 36,
+      "review_positif": 18,
+      "review_negatif": 18,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 46,
+          "terdeteksi": true,
+          "keluhan_count": 13
+        },
+        "Packaging": {
+          "skor_positif": 62,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Harga": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 47,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        }
+      },
+      "kata_kunci_positif": [
+        "kirim",
+        "enak",
+        "aman",
+        "barang",
+        "packaging"
+      ],
+      "kata_kunci_negatif": [
+        "kurir",
+        "kecewa",
+        "beli",
+        "kirim",
+        "bau"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "Respon seller OK.Packaging rapih. Pesanan sesuai. Kukisnya enak teksturnya pas, hanya masih kemanisan mnrt sy. Kalau dikurangi sedikit manisnya lebih ok ??????",
+      "contoh_review_negatif": "kecewa"
+    },
+    {
+      "id": "U010",
+      "nama": "Onde-Onde Bu Ningsih",
+      "pemilik": "Sri Ningsih",
+      "kategori": "Kuliner",
+      "lokasi": "Purwokerto Barat",
+      "produk_utama": "Onde-onde & kue tradisional",
+      "skor": 37,
+      "status": "Kritis",
+      "total_review": 24,
+      "review_positif": 9,
+      "review_negatif": 15,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 10
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 43,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "mantap",
+        "order",
+        "enak",
+        "respon"
+      ],
+      "kata_kunci_negatif": [
+        "kecewa",
+        "kaya",
+        "kirim",
+        "beli",
+        "mesan"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "alhamdulillah seperti biasa repeat order di sini free ongkir rasa enak harga murah dan pastinya gurih mantap krupuknya",
+      "contoh_review_negatif": "kecewa"
+    },
+    {
+      "id": "U011",
+      "nama": "Rengginang Bu Yati",
+      "pemilik": "Suryati Prawiro",
+      "kategori": "Kuliner",
+      "lokasi": "Rawalo",
+      "produk_utama": "Rengginang ketan & singkong",
+      "skor": 44,
+      "status": "Perlu Perhatian",
+      "total_review": 40,
+      "review_positif": 18,
+      "review_negatif": 22,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 43,
+          "terdeteksi": true,
+          "keluhan_count": 16
+        },
+        "Packaging": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Harga": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        }
+      },
+      "kata_kunci_positif": [
+        "kirim",
+        "packing",
+        "cepat",
+        "seller",
+        "bagus"
+      ],
+      "kata_kunci_negatif": [
+        "kecewa",
+        "kirim",
+        "beli",
+        "dateng",
+        "komplain"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "barang ok (harga, porsi) terjangkau, untuk rasa enak, pengiriman cepat..good job",
+      "contoh_review_negatif": "Kali ini kecewa, dapet yang udah kadaluarsa padahal baru minum sehari besoknya udah asem, gak bisa diminum.. mohon di pastikan tgl kadaluarsanya.. jujur kecewa banget"
+    },
+    {
+      "id": "U012",
+      "nama": "Herbal Pak Budi Rawalo",
+      "pemilik": "Budi Prasetyo",
+      "kategori": "Kuliner",
+      "lokasi": "Rawalo",
+      "produk_utama": "Minuman herbal & jahe instan",
+      "skor": 42,
+      "status": "Perlu Perhatian",
+      "total_review": 26,
+      "review_positif": 11,
+      "review_negatif": 15,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 9
+        },
+        "Packaging": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 22,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        }
+      },
+      "kata_kunci_positif": [
+        "produk",
+        "sesuai",
+        "cepat",
+        "bagus",
+        "seller"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "tgl",
+        "beli",
+        "pesan",
+        "kecewa"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Analisis struktur biaya dengan konsultan Diskop"
+      ],
+      "contoh_review_positif": "respon cepat, barang aman, buahnya segar dan bagus, pengiriman cepat",
+      "contoh_review_negatif": "Kali ini kecewa, dapet yang udah kadaluarsa padahal baru minum sehari besoknya udah asem, gak bisa diminum.. mohon di pastikan tgl kadaluarsanya.. jujur kecewa banget"
+    },
+    {
+      "id": "U013",
+      "nama": "Batik Sekar Banyumas",
+      "pemilik": "Hendra Prasetya",
+      "kategori": "Fashion",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Batik tulis & cap motif Banyumasan",
+      "skor": 34,
+      "status": "Kritis",
+      "total_review": 33,
+      "review_positif": 11,
+      "review_negatif": 22,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 40,
+          "terdeteksi": true,
+          "keluhan_count": 15
+        },
+        "Packaging": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 17,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Pengiriman": {
+          "skor_positif": 27,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "bahan",
+        "ukur",
+        "sesuai",
+        "jahit"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "sesuai",
+        "tidak",
+        "barang",
+        "kecewa"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "Jahitannya rapi. Ukuran sesuai. Modelnya cantik ??. Warnanya cantik ??. Nyaman dipakai ?. Bahannya adem.",
+      "contoh_review_negatif": "Di kirimnya yg hidden, bukan yg semata kaki. Kecewa"
+    },
+    {
+      "id": "U014",
+      "nama": "Tenun Lurik Mbak Dewi",
+      "pemilik": "Dewi Ratnasari",
+      "kategori": "Fashion",
+      "lokasi": "Banyumas",
+      "produk_utama": "Kain lurik tenun tangan",
+      "skor": 58,
+      "status": "Pantau",
+      "total_review": 26,
+      "review_positif": 15,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 10
+        },
+        "Packaging": {
+          "skor_positif": 89,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        }
+      },
+      "kata_kunci_positif": [
+        "sesuai",
+        "bagus",
+        "produk",
+        "bahan",
+        "cantik"
+      ],
+      "kata_kunci_negatif": [
+        "jam",
+        "kecewa",
+        "barang",
+        "bagus",
+        "kurang"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "bagus strap nya...seller jg krmnya cepat",
+      "contoh_review_negatif": "gimana bisa miring begitu? plus udh di wanti2 alamat kirim kantor tutup jam 5 terus libur akhir tahun. udh ditanya udh konfirmasi katanya bisa sblm jam 5 sampe pake sameday. ini nyampe nya jam 8 malem, gw nungguin di warkop depan kantor yg udh gelap. tolonglah kalo udh di notice..."
+    },
+    {
+      "id": "U015",
+      "nama": "Batik Banyumasan Pak Agus",
+      "pemilik": "Agus Wibowo",
+      "kategori": "Fashion",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Batik kombinasi modern-tradisional",
+      "skor": 56,
+      "status": "Pantau",
+      "total_review": 23,
+      "review_positif": 13,
+      "review_negatif": 10,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 59,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        },
+        "Packaging": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "bahan",
+        "adem",
+        "rapi",
+        "barang"
+      ],
+      "kata_kunci_negatif": [
+        "tipis",
+        "bahan",
+        "warna",
+        "gak",
+        "sesuai"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
+      ],
+      "contoh_review_positif": "barangnya bagus harganya murah",
+      "contoh_review_negatif": "bahan jelek.. panas.. & tipis"
+    },
+    {
+      "id": "U016",
+      "nama": "Konveksi Berkah Bu Rini",
+      "pemilik": "Rini Sulistyowati",
+      "kategori": "Fashion",
+      "lokasi": "Purwokerto Utara",
+      "produk_utama": "Seragam & pakaian kerja bordir",
+      "skor": 54,
+      "status": "Perlu Perhatian",
+      "total_review": 24,
+      "review_positif": 13,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 52,
+          "terdeteksi": true,
+          "keluhan_count": 11
+        },
+        "Packaging": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "murah",
+        "bagus",
+        "rapi",
+        "bahan"
+      ],
+      "kata_kunci_negatif": [
+        "ukur",
+        "sesuai",
+        "kirim",
+        "barang",
+        "tidak"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "Barang sesuai ekpektasi, terimakasih",
+      "contoh_review_negatif": "To be honest ! Barang rusak ( tangkai patah ) dikirim, saya salah juga pas buka ga di video unboxing. But overall, sangat - sangat mengecewakan sih kualiatas barang ini toko, padahal sudah di kasih notes waktu pemesanan, harap di check dulu min barang sebelum dikirim. Kapok sih..."
+    },
+    {
+      "id": "U017",
+      "nama": "Busana Muslim Mbak Nisa",
+      "pemilik": "Anisa Pratiwi",
+      "kategori": "Fashion",
+      "lokasi": "Purwokerto Selatan",
+      "produk_utama": "Gamis & mukena bordir khas daerah",
+      "skor": 50,
+      "status": "Perlu Perhatian",
+      "total_review": 30,
+      "review_positif": 15,
+      "review_negatif": 15,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 52,
+          "terdeteksi": true,
+          "keluhan_count": 12
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 22,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        }
+      },
+      "kata_kunci_positif": [
+        "cantik",
+        "warna",
+        "sesuai",
+        "bahan",
+        "jahit"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "warna",
+        "kecewa",
+        "beli",
+        "dapet"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "barangnya bagus sesuai pesanan",
+      "contoh_review_negatif": "jelek bgt bikin kecewa ?? ??"
+    },
+    {
+      "id": "U018",
+      "nama": "Kaos Sablon Pak Joni",
+      "pemilik": "Joni Kristanto",
+      "kategori": "Fashion",
+      "lokasi": "Purwokerto Timur",
+      "produk_utama": "Kaos sablon custom & souvenir",
+      "skor": 68,
+      "status": "Pantau",
+      "total_review": 25,
+      "review_positif": 17,
+      "review_negatif": 8,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Packaging": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 73,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        }
+      },
+      "kata_kunci_positif": [
+        "sesuai",
+        "cepat",
+        "bagus",
+        "seller",
+        "barang"
+      ],
+      "kata_kunci_negatif": [
+        "beli",
+        "barang",
+        "kecewa",
+        "kirim",
+        "tidak"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman"
+      ],
+      "contoh_review_positif": "Piyama kualitas ????, seller responsive, prosesnya cepat, pengiriman juga cepat sampainya di Manado. Semoga next order bisa sebagus ini yah. Terima kasih.",
+      "contoh_review_negatif": "kecewa belinya asli, packing berantakan, kardus penyok, bawahnya udh kuning-kuning kaya bekas di pakai, kecewalah pokonya, tolonglah di bagusin.."
+    },
+    {
+      "id": "U019",
+      "nama": "Kerajinan Bambu Wangon",
+      "pemilik": "Supriyono",
+      "kategori": "Kerajinan",
+      "lokasi": "Wangon",
+      "produk_utama": "Anyaman bambu & furnitur rotan",
+      "skor": 51,
+      "status": "Perlu Perhatian",
+      "total_review": 29,
+      "review_positif": 15,
+      "review_negatif": 14,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 46,
+          "terdeteksi": true,
+          "keluhan_count": 13
+        },
+        "Packaging": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "sesuai",
+        "cepat",
+        "kirim",
+        "seller"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "barang",
+        "kecewa",
+        "sesuai",
+        "pcs"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "barang bagus cepat sampai aman",
+      "contoh_review_negatif": "kecewa parah"
+    },
+    {
+      "id": "U020",
+      "nama": "Anyaman Pandan Bu Suryani",
+      "pemilik": "Suryani Utami",
+      "kategori": "Kerajinan",
+      "lokasi": "Ajibarang",
+      "produk_utama": "Tas & topi anyaman pandan",
+      "skor": 35,
+      "status": "Kritis",
+      "total_review": 18,
+      "review_positif": 6,
+      "review_negatif": 12,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 55,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Packaging": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 43,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "sesuai",
+        "anak",
+        "ultah",
+        "sen"
+      ],
+      "kata_kunci_negatif": [
+        "kardus",
+        "jual",
+        "kirim",
+        "susu",
+        "toko"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Ikutkan dalam pelatihan packaging Diskop"
+      ],
+      "contoh_review_positif": "mantab, lilinya sesuai makasih ya",
+      "contoh_review_negatif": "Gak jelas"
+    },
+    {
+      "id": "U021",
+      "nama": "Gerabah Rawalo Pak Muji",
+      "pemilik": "Muji Santosa",
+      "kategori": "Kerajinan",
+      "lokasi": "Rawalo",
+      "produk_utama": "Gerabah & keramik tradisional",
+      "skor": 46,
+      "status": "Perlu Perhatian",
+      "total_review": 24,
+      "review_positif": 11,
+      "review_negatif": 13,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 53,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 44,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "sesuai",
+        "kali",
+        "mantap",
+        "deskripsi"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "air",
+        "kualitas",
+        "barang",
+        "tdk"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "barang bisa digunakan dengan sesuai fungsi nya terimakasih",
+      "contoh_review_negatif": "yg dikirim rusak, ajukan komplain tp gak jelas"
+    },
+    {
+      "id": "U022",
+      "nama": "Ukiran Kayu Pak Santoso",
+      "pemilik": "Santoso Harjono",
+      "kategori": "Kerajinan",
+      "lokasi": "Lumbir",
+      "produk_utama": "Ukiran kayu jati & souvenir",
+      "skor": 36,
+      "status": "Kritis",
+      "total_review": 36,
+      "review_positif": 13,
+      "review_negatif": 23,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 46,
+          "terdeteksi": true,
+          "keluhan_count": 15
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 40,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 47,
+          "terdeteksi": true,
+          "keluhan_count": 9
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "sesuai",
+        "cepat",
+        "seller",
+        "kirim"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "beli",
+        "gak",
+        "barang",
+        "toko"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "barang bisa digunakan dengan sesuai fungsi nya terimakasih",
+      "contoh_review_negatif": "barang tidak sesuai katanya 4-5 mm ternyata tipis sekali Dan jumlahnya tidak sesuai Dari 56 pcs yg dtg 54 pcs,,kwalitas jelek"
+    },
+    {
+      "id": "U023",
+      "nama": "Tas Anyaman Mbak Citra",
+      "pemilik": "Citra Paramita",
+      "kategori": "Kerajinan",
+      "lokasi": "Cilongok",
+      "produk_utama": "Tas anyaman & aksesori wanita",
+      "skor": 30,
+      "status": "Kritis",
+      "total_review": 34,
+      "review_positif": 10,
+      "review_negatif": 24,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 41,
+          "terdeteksi": true,
+          "keluhan_count": 13
+        },
+        "Packaging": {
+          "skor_positif": 25,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "kirim",
+        "sesuai",
+        "pesan",
+        "barang"
+      ],
+      "kata_kunci_negatif": [
+        "kirim",
+        "tidak",
+        "barang",
+        "gak",
+        "beli"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Ikutkan dalam pelatihan packaging Diskop"
+      ],
+      "contoh_review_positif": "produk bagus. paking aman rapi. respon kirim cepat.",
+      "contoh_review_negatif": "Gak jelas"
+    },
+    {
+      "id": "U024",
+      "nama": "Souvenir Banyumas Pak Dedi",
+      "pemilik": "Dedi Kurniawan",
+      "kategori": "Kerajinan",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Souvenir khas Banyumas & oleh-oleh",
+      "skor": 42,
+      "status": "Perlu Perhatian",
+      "total_review": 17,
+      "review_positif": 7,
+      "review_negatif": 10,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 27,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "lilin",
+        "kirim",
+        "seller",
+        "sesuai"
+      ],
+      "kata_kunci_negatif": [
+        "beli",
+        "tidak",
+        "barang",
+        "pake",
+        "bolong"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "bagus banget, pengiriman cepat, seller ramah, tooop",
+      "contoh_review_negatif": "kardus gak dikirim, jadi hanya di packing pake plastik doank... sangat mengecewakan..."
+    },
+    {
+      "id": "U025",
+      "nama": "Batako & Bata Bu Aminah",
+      "pemilik": "Aminah Saputri",
+      "kategori": "Kerajinan",
+      "lokasi": "Sumpiuh",
+      "produk_utama": "Batako press & bata merah",
+      "skor": 68,
+      "status": "Pantau",
+      "total_review": 19,
+      "review_positif": 13,
+      "review_negatif": 6,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 69,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Packaging": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 73,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "sesuai",
+        "kirim",
+        "cepat",
+        "rumah"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "tidak",
+        "kirim",
+        "warna",
+        "tdk"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "Keren, Sampai Langsung Pasang, jepitannya kelebihan satu, Lemari Gampang dirakit, Warna sesuai, Kualitas Ok, Kokoh. mantap mantap",
+      "contoh_review_negatif": "pengepakannya kurang saveti sehingga barang di terima dalam keadaan rusak (pecah dan retak) jd tidak mungkin bisa terpakai."
+    },
+    {
+      "id": "U026",
+      "nama": "Minyak Kayu Putih Bu Tono",
+      "pemilik": "Sutono Warsito",
+      "kategori": "Pertanian",
+      "lokasi": "Banyumas",
+      "produk_utama": "Minyak kayu putih & minyak herbal",
+      "skor": 66,
+      "status": "Pantau",
+      "total_review": 36,
+      "review_positif": 24,
+      "review_negatif": 12,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 68,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        },
+        "Packaging": {
+          "skor_positif": 73,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 69,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "seller",
+        "kirim",
+        "barang",
+        "mantap",
+        "packing"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "beli",
+        "kirim",
+        "barang",
+        "pecah"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "Mantap sesuai.",
+      "contoh_review_negatif": "barang tidak sesuai"
+    },
+    {
+      "id": "U027",
+      "nama": "Bibit Tanaman Pak Hadi",
+      "pemilik": "Hadi Susilo",
+      "kategori": "Pertanian",
+      "lokasi": "Cilongok",
+      "produk_utama": "Bibit sayur & tanaman hias",
+      "skor": 56,
+      "status": "Pantau",
+      "total_review": 34,
+      "review_positif": 19,
+      "review_negatif": 15,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 10
+        },
+        "Packaging": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "cepat",
+        "sesuai",
+        "kirim",
+        "bagus"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "barang",
+        "kualitas",
+        "sesuai",
+        "toko"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
+      ],
+      "contoh_review_positif": "Mantap sesuai.",
+      "contoh_review_negatif": "salah kirim barang tidak sesuai diskripsi"
+    },
+    {
+      "id": "U028",
+      "nama": "Sabun Herbal Mbak Ani",
+      "pemilik": "Ani Setyaningsih",
+      "kategori": "Pertanian",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Sabun herbal aloe vera & zaitun",
+      "skor": 25,
+      "status": "Kritis",
+      "total_review": 16,
+      "review_positif": 4,
+      "review_negatif": 12,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 30,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        },
+        "Packaging": {
+          "skor_positif": 40,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 17,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "bikin",
+        "sesuai",
+        "deskripsi",
+        "paket"
+      ],
+      "kata_kunci_negatif": [
+        "kecewa",
+        "tidak",
+        "jual",
+        "barang",
+        "tanggal"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "recommended seller!! barang udah sampai, packing rapih, barang sesuai deskripsi, thanks ya",
+      "contoh_review_negatif": "ang di kota tangerang pengiriman tidak lengkap... ud gt barang yg satu ny rusak. sangat mengecewakan.. barang beginian ternyata harus video unboxing jg."
+    },
+    {
+      "id": "U029",
+      "nama": "Pupuk Organik Pak Warno",
+      "pemilik": "Warno Haryanto",
+      "kategori": "Pertanian",
+      "lokasi": "Kalibagor",
+      "produk_utama": "Pupuk kompos & bio-organik",
+      "skor": 55,
+      "status": "Pantau",
+      "total_review": 36,
+      "review_positif": 20,
+      "review_negatif": 16,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 68,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 73,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 71,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "kirim",
+        "barang",
+        "packing",
+        "sesuai"
+      ],
+      "kata_kunci_negatif": [
+        "tdk",
+        "kirim",
+        "tipis",
+        "beli",
+        "tali"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
+      ],
+      "contoh_review_positif": "kiriman sdh sampai....proses n pengiriman cepat, barang bagus sesuai pesanan n packing rapih...terima kasih, kak",
+      "contoh_review_negatif": "Kecewa, hadiahnya tdk dtg sesuai info dan tdk dikbrin jg tdk ada ??"
+    },
+    {
+      "id": "U030",
+      "nama": "Rempah Segar Pak Joko",
+      "pemilik": "Joko Supriyadi",
+      "kategori": "Pertanian",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Rempah-rempah segar & kering",
+      "skor": 44,
+      "status": "Perlu Perhatian",
+      "total_review": 20,
+      "review_positif": 9,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 42,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 36,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "kirim",
+        "enak",
+        "bangett",
+        "beli"
+      ],
+      "kata_kunci_negatif": [
+        "kecewa",
+        "tidak",
+        "pie",
+        "produk",
+        "ayam"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "respon cepat, barang aman, buahnya segar dan bagus, pengiriman cepat",
+      "contoh_review_negatif": "Kali ini kecewa, dapet yang udah kadaluarsa padahal baru minum sehari besoknya udah asem, gak bisa diminum.. mohon di pastikan tgl kadaluarsanya.. jujur kecewa banget"
+    },
+    {
+      "id": "U031",
+      "nama": "Service Elektronik Pak Rio",
+      "pemilik": "Rio Firmansyah",
+      "kategori": "Teknologi",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Servis HP, laptop & elektronik",
+      "skor": 40,
+      "status": "Perlu Perhatian",
+      "total_review": 33,
+      "review_positif": 13,
+      "review_negatif": 20,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 46,
+          "terdeteksi": true,
+          "keluhan_count": 14
+        },
+        "Packaging": {
+          "skor_positif": 43,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 31,
+          "terdeteksi": true,
+          "keluhan_count": 9
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "produk",
+        "fungsi",
+        "seller",
+        "sesuai"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "tidak",
+        "pakai",
+        "kirim",
+        "beli"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Ikutkan dalam pelatihan packaging Diskop"
+      ],
+      "contoh_review_positif": "Paket sudah diterima dalam kondisi aman, lengkap dan tanpa cacat. Packing rapi dan aman pake bublewrap. berfungsi normal. ori masih segel dan harga bersahabat. seller ok, recomanded",
+      "contoh_review_negatif": "sy pernah usaha jd sy tdk mau menjelekan usaha org, sya toleransi klo pertama beli colokan rusak sy anggap kurir, tpi transaksi ke-2 ini lampu 2dari 3 hanya nyala setengah, bagaimana admin jualan tidak cek dulu sebelum pac d kirim. jujur saya kecewa, saya beli barang mungkin..."
+    },
+    {
+      "id": "U032",
+      "nama": "Print & Sablon Mbak Dian",
+      "pemilik": "Dian Permatasari",
+      "kategori": "Teknologi",
+      "lokasi": "Purwokerto Utara",
+      "produk_utama": "Cetak digital & sablon kustomisasi",
+      "skor": 42,
+      "status": "Perlu Perhatian",
+      "total_review": 38,
+      "review_positif": 16,
+      "review_negatif": 22,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 39,
+          "terdeteksi": true,
+          "keluhan_count": 17
+        },
+        "Packaging": {
+          "skor_positif": 70,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 42,
+          "terdeteksi": true,
+          "keluhan_count": 11
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "cepat",
+        "kirim",
+        "aman",
+        "respon"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "kirim",
+        "kecewa",
+        "toko",
+        "tidak"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "barang bagus dan berkwalitas.. mantapsss... sesuai deskripsi.. cepat sampai",
+      "contoh_review_negatif": "Mengecewakan????????????????"
+    },
+    {
+      "id": "U033",
+      "nama": "Aksesoris HP Bu Yuni",
+      "pemilik": "Yuni Hartati",
+      "kategori": "Teknologi",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Aksesoris HP & casing custom",
+      "skor": 59,
+      "status": "Pantau",
+      "total_review": 35,
+      "review_positif": 21,
+      "review_negatif": 14,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 58,
+          "terdeteksi": true,
+          "keluhan_count": 13
+        },
+        "Packaging": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        }
+      },
+      "kata_kunci_positif": [
+        "sesuai",
+        "barang",
+        "fungsi",
+        "bagus",
+        "kirim"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "kecewa",
+        "barang",
+        "sesuai",
+        "pakai"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman"
+      ],
+      "contoh_review_positif": "Mantap sangat bermanfaat",
+      "contoh_review_negatif": "barang tidak sesuai pesanan, tempat penyimpan hp nya tidak ada.. kecewa"
+    },
+    {
+      "id": "U034",
+      "nama": "Perabot Dapur Pak Suryo",
+      "pemilik": "Suryo Atmojo",
+      "kategori": "Rumah Tangga",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Peralatan masak & dapur",
+      "skor": 56,
+      "status": "Pantau",
+      "total_review": 16,
+      "review_positif": 9,
+      "review_negatif": 7,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 57,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Packaging": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        }
+      },
+      "kata_kunci_positif": [
+        "produk",
+        "bagus",
+        "kualitas",
+        "sesuai",
+        "barang"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "kecewa",
+        "tsb",
+        "ukur",
+        "mesen"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
+      ],
+      "contoh_review_positif": "selalu puas belanja disini, packing aman sehingga brg diterima dlm keadaan baik tanpa cacat, respon dan pengiriman cpt. brg sesuai dengan deskripsi. Positive seller",
+      "contoh_review_negatif": "barang tidak sesuai gambar. payah"
+    },
+    {
+      "id": "U035",
+      "nama": "Mebel Rotan Pak Tarno",
+      "pemilik": "Sutarno Hadi",
+      "kategori": "Rumah Tangga",
+      "lokasi": "Rawalo",
+      "produk_utama": "Mebel rotan & kayu jati",
+      "skor": 49,
+      "status": "Perlu Perhatian",
+      "total_review": 24,
+      "review_positif": 12,
+      "review_negatif": 12,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 10
+        },
+        "Packaging": {
+          "skor_positif": 56,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Harga": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 46,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        }
+      },
+      "kata_kunci_positif": [
+        "bagus",
+        "bersih",
+        "sikat",
+        "tidak",
+        "bahan"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "kirim",
+        "gak",
+        "pas",
+        "tidak"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "bahannya bagus , jahitan rapi , tebal tdk menerawang, udah 3x beli di toko ini dan hasilnya memuaskan ,respon penjual cepat dan kiriman jg cepat",
+      "contoh_review_negatif": "Barang yg dikirim patah tdk bisa digunakan"
+    },
+    {
+      "id": "U036",
+      "nama": "Alat Pertanian Bu Kasih",
+      "pemilik": "Kasih Rahayu",
+      "kategori": "Rumah Tangga",
+      "lokasi": "Ajibarang",
+      "produk_utama": "Peralatan pertanian tangan",
+      "skor": 46,
+      "status": "Perlu Perhatian",
+      "total_review": 20,
+      "review_positif": 9,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 53,
+          "terdeteksi": true,
+          "keluhan_count": 8
+        },
+        "Packaging": {
+          "skor_positif": 78,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 33,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        }
+      },
+      "kata_kunci_positif": [
+        "produk",
+        "bagus",
+        "sesuai",
+        "beli",
+        "harga"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "kirim",
+        "tidak",
+        "kurang",
+        "gunting"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "Produk sesuai deskripsi, packing aman terlindung, pengiriman cepat, toko/ penjual responsif, alat sudah dicoba dan berfungsi, sangat direkomendasikan.",
+      "contoh_review_negatif": "Bintang satu ya, chargernya patah, gak bisa digunakan, akhirnya harus cari charger lain. charger nya ada di dalam alatnya, jadi jelas bukan kesalahan pengiriman."
+    },
+    {
+      "id": "U037",
+      "nama": "Apotek Herbal Mbak Fitri",
+      "pemilik": "Fitri Andriani",
+      "kategori": "Kesehatan",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Produk herbal & suplemen tradisional",
+      "skor": 60,
+      "status": "Pantau",
+      "total_review": 30,
+      "review_positif": 18,
+      "review_negatif": 12,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 69,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        },
+        "Packaging": {
+          "skor_positif": 83,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        },
+        "Harga": {
+          "skor_positif": 25,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 82,
+          "terdeteksi": true,
+          "keluhan_count": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "kirim",
+        "rapi",
+        "barang",
+        "packing"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "barang",
+        "toko",
+        "sesuai",
+        "proses"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
+      ],
+      "contoh_review_positif": "Barang ok.. pengiriman cepat.. packaging aman dan rapi",
+      "contoh_review_negatif": "kecewa krn barang di dlm box ketika dibuka sudah pecah. botol pecah dibagian bawah sehingga isinya tdk ada yg tersisa."
+    },
+    {
+      "id": "U038",
+      "nama": "Kosmetik Lokal Bu Endang",
+      "pemilik": "Endang Kusumawati",
+      "kategori": "Kesehatan",
+      "lokasi": "Purwokerto Selatan",
+      "produk_utama": "Kosmetik natural bahan lokal",
+      "skor": 50,
+      "status": "Perlu Perhatian",
+      "total_review": 16,
+      "review_positif": 8,
+      "review_negatif": 8,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Harga": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 44,
+          "terdeteksi": true,
+          "keluhan_count": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "packaging",
+        "aman",
+        "sesuai",
+        "pesan",
+        "cepat"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "kirim",
+        "tidak",
+        "kecewa",
+        "warna"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
+      ],
+      "contoh_review_positif": "Packaging rapi. Proses pesanan cepat. Packaging aman ??. Gampang dibawa-bawa.",
+      "contoh_review_negatif": "mengecewakan!!!"
+    },
+    {
+      "id": "U039",
+      "nama": "Perawatan Rambut Pak Dono",
+      "pemilik": "Dono Prayitno",
+      "kategori": "Kesehatan",
+      "lokasi": "Banyumas",
+      "produk_utama": "Produk perawatan rambut herbal",
+      "skor": 38,
+      "status": "Kritis",
+      "total_review": 24,
+      "review_positif": 9,
+      "review_negatif": 15,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 45,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 1
+        },
+        "Harga": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        },
+        "Pengiriman": {
+          "skor_positif": 25,
+          "terdeteksi": true,
+          "keluhan_count": 6
+        }
+      },
+      "kata_kunci_positif": [
+        "barang",
+        "pakai",
+        "sesuai",
+        "deskripsi",
+        "respon"
+      ],
+      "kata_kunci_negatif": [
+        "barang",
+        "beli",
+        "kecewa",
+        "tanggal",
+        "tidak"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "Barang sesuai deskripsi, cepat sampai",
+      "contoh_review_negatif": "ang di kota tangerang pengiriman tidak lengkap... ud gt barang yg satu ny rusak. sangat mengecewakan.. barang beginian ternyata harus video unboxing jg."
+    },
+    {
+      "id": "U040",
+      "nama": "Alat Olahraga Bu Mira",
+      "pemilik": "Mira Yuniarti",
+      "kategori": "Kesehatan",
+      "lokasi": "Purwokerto Timur",
+      "produk_utama": "Alat olahraga rumahan & fitness",
+      "skor": 50,
+      "status": "Perlu Perhatian",
+      "total_review": 21,
+      "review_positif": 10,
+      "review_negatif": 11,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 53,
+          "terdeteksi": true,
+          "keluhan_count": 7
+        },
+        "Packaging": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 56,
+          "terdeteksi": true,
+          "keluhan_count": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "cepat",
+        "barang",
+        "nyaman",
+        "bahan",
+        "produk"
+      ],
+      "kata_kunci_negatif": [
+        "lecet",
+        "kasih",
+        "belah",
+        "barang",
+        "tidak"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "mantap ... cepat sampai ...",
+      "contoh_review_negatif": "Barang lecet, tidak bisa diganti karna saat unboxing tidak di video, pelajaran untuk yg mau beli disini.. kalo mau buka paketnya di videoin biar ga kaya saya dapet raket lecet"
+    }
+  ]
+}
