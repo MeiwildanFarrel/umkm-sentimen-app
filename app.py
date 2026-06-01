@@ -428,7 +428,7 @@ def render_login():
                 email = st.text_input("Email", placeholder="nama@diskop.banyumaskab.go.id")
                 sandi = st.text_input("Password", type="password",
                                       placeholder="Masukkan kata sandi")
-                masuk = st.form_submit_button("Masuk", width="stretch")
+                masuk = st.form_submit_button("Masuk", use_container_width=True)
             if masuk:
                 if email.strip() == ADMIN_EMAIL and sandi == ADMIN_PASS:
                     st.session_state.login_ok = True
