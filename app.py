@@ -20,6 +20,7 @@ import os
 import re
 from collections import Counter
 from datetime import datetime
+from io import BytesIO
 
 import joblib
 import numpy as np
@@ -231,6 +232,33 @@ hr { border: none; border-top: 1px solid #E5E7EB; margin: 1rem 0; }
     min-height: 2.2rem !important;
     line-height: 1.2 !important;
 }
+
+/* Alert (warning/info/error/success) — pastikan teks gelap & kontras
+   pada background terang (mengatasi default theme yang tidak konsisten) */
+.stAlert,
+.stAlert p,
+.stAlert span,
+.stAlert div,
+.stAlert strong,
+.stAlert b,
+.stAlert li {
+    color: #1F2937 !important;
+}
+/* Warning khusus: latar kuning muda, teks coklat gelap untuk kontras tinggi */
+.stAlert[data-baseweb="notification"][kind="warning"],
+div[data-testid="stAlert"]:has([kind="warning"]) {
+    background-color: #FFFBEB !important;
+    border: 1px solid #FDE68A !important;
+}
+.stAlert[data-baseweb="notification"][kind="warning"] *,
+div[data-testid="stAlert"]:has([kind="warning"]) * {
+    color: #92400E !important;
+}
+
+/* Tabel HTML mentah di markdown — pastikan teks default cell gelap
+   sehingga NAMA UMKM tidak tampil putih-di-putih */
+.block-container table td,
+.block-container table th { color: #111827; }
 </style>
 """
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
@@ -593,7 +621,8 @@ def page_overview():
         for u in kritis:
             baris += (
                 f'<tr>'
-                f'<td style="padding:9px 12px;border-bottom:1px solid {BORDER};">'
+                f'<td style="padding:9px 12px;border-bottom:1px solid {BORDER};'
+                f'color:{TEKS};font-weight:600;">'
                 f'{u["nama"]}</td>'
                 f'<td style="padding:9px 12px;border-bottom:1px solid {BORDER};'
                 f'color:{TEKS2};">{u["kategori"]}</td>'
@@ -1329,8 +1358,10 @@ def page_laporan():
                         if u["status"] in ["Kritis", "Perlu Perhatian"]]
         aspek_count = Counter()
         for u in umkm_masalah:
-            for aspek, terdeteksi in u.get("aspek", {}).items():
-                if terdeteksi:
+            for aspek, info in u.get("aspek", {}).items():
+                # UMKM dihitung bermasalah di aspek X hanya jika aspek X
+                # memang memiliki keluhan (bukan sekadar terdeteksi disebut).
+                if isinstance(info, dict) and info.get("keluhan_count", 0) > 0:
                     aspek_count[aspek] += 1
         if aspek_count and umkm_masalah:
             urut = sorted(aspek_count.items(), key=lambda x: x[1], reverse=True)
@@ -1418,12 +1449,27 @@ def page_laporan():
     st.dataframe(df_laporan, use_container_width=True, hide_index=True, height=380)
 
     csv_data = df_laporan.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig")
-    st.download_button(
-        label="⬇ Unduh Laporan CSV",
-        data=csv_data,
-        file_name=f"laporan_umkm_banyumas_{now.strftime('%Y%m')}.csv",
-        mime="text/csv",
-    )
+
+    xlsx_buf = BytesIO()
+    with pd.ExcelWriter(xlsx_buf, engine="openpyxl") as writer:
+        df_laporan.to_excel(writer, index=False, sheet_name="Laporan UMKM")
+    xlsx_data = xlsx_buf.getvalue()
+
+    dl_csv, dl_xlsx = st.columns(2)
+    with dl_csv:
+        st.download_button(
+            label="⬇ Unduh Laporan CSV",
+            data=csv_data,
+            file_name=f"laporan_umkm_banyumas_{now.strftime('%Y%m')}.csv",
+            mime="text/csv",
+        )
+    with dl_xlsx:
+        st.download_button(
+            label="⬇ Unduh Excel",
+            data=xlsx_data,
+            file_name=f"laporan_umkm_banyumas_{now.strftime('%Y%m')}.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        )
 
 
 # =============================================================================
