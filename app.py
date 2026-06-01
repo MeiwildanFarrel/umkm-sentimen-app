@@ -27,6 +27,15 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from openpyxl.styles import (
+    Alignment,
+    Border,
+    Font,
+    GradientFill,  # noqa: F401  (diimpor sesuai spesifikasi)
+    PatternFill,
+    Side,
+)
+from openpyxl.utils import get_column_letter
 
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
@@ -958,6 +967,60 @@ def page_analisis():
         unsafe_allow_html=True,
     )
 
+    with st.expander("Cara Kerja Preprocessing"):
+        contoh_preproses = [
+            ("Produk BAGUS banget!! Pengiriman cepet, packing oke",
+             "produk bagus kirim cepat packing oke"),
+            ("Kecewa bgt.. barang ga sesuai deskripsi, harga mahal jg",
+             "kecewa barang sesuai deskripsi harga mahal"),
+            ("Udh beli 3x, kualitasnya konsisten & seller responsif banget",
+             "beli kualitas konsisten seller responsif"),
+            ("Pengiriman lama bgt sampe 2 minggu, tp barangnya oke lah",
+             "kirim lama minggu barang oke"),
+        ]
+        baris_contoh = ""
+        for i, (asli, hasil) in enumerate(contoh_preproses, start=1):
+            baris_contoh += (
+                f'<tr>'
+                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
+                f'color:{TEKS2};text-align:center;font-weight:600;">{i}</td>'
+                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
+                f'color:#374151;">{asli}</td>'
+                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
+                f'color:{HIJAU};font-weight:700;">{hasil}</td>'
+                f'</tr>'
+            )
+        st.markdown(
+            f"""
+            <table style="width:100%;border-collapse:collapse;background:#FFFFFF;
+                border:1px solid {BORDER};border-radius:8px;overflow:hidden;
+                font-size:0.88rem;margin-top:0.4rem;">
+                <tr style="background:{MERAH};">
+                    <th style="padding:9px 12px;text-align:center;color:#FFFFFF;
+                        font-weight:700;font-size:0.78rem;width:50px;">NO</th>
+                    <th style="padding:9px 12px;text-align:left;color:#FFFFFF;
+                        font-weight:700;font-size:0.78rem;">TEKS ASLI</th>
+                    <th style="padding:9px 12px;text-align:left;color:#FFFFFF;
+                        font-weight:700;font-size:0.78rem;">HASIL PREPROCESSING</th>
+                </tr>
+                {baris_contoh}
+            </table>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            f'<div style="font-size:0.8rem;color:{TEKS2};margin-top:10px;'
+            f'padding:9px 12px;background:#F9FAFB;border-left:3px solid {MERAH};'
+            f'border-radius:4px;">'
+            f'<b style="color:{TEKS};">4 Tahap Preprocessing:</b> '
+            f'<span style="color:#374151;">Lowercase → Cleaning '
+            f'(buang angka, tanda baca, karakter khusus) → Stopword Removal '
+            f'(buang kata umum seperti "yang", "di", "ke") → '
+            f'Stemming dengan <b>Sastrawi</b> (kata dasar bahasa Indonesia)'
+            f'</span></div>',
+            unsafe_allow_html=True,
+        )
+
     # Cek ketersediaan model
     kurang = [f for f in ["vectorizer.pkl"] + list(MODEL_FILES.values())
               if not os.path.exists(f)]
@@ -1320,6 +1383,105 @@ def page_perbandingan():
 # =============================================================================
 # HALAMAN 6 — LAPORAN
 # =============================================================================
+def _buat_xlsx_laporan(df: pd.DataFrame) -> bytes:
+    """Bangun file Excel laporan UMKM dengan styling openpyxl.
+
+    Layout:
+      Row 1 : Judul (merge A:terakhir), merah tua #7F1D1D, teks putih, size 13
+      Row 2 : Header tabel, merah #B91C1C, teks putih bold, tinggi 22
+      Row 3+: Data — alternating putih / #FEF2F2, border tipis #E5E7EB,
+              kolom Status diwarnai per nilai, kolom Skor center bold.
+      Freeze panes di A2 (judul tetap terlihat saat scroll).
+    """
+    buf = BytesIO()
+    with pd.ExcelWriter(buf, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False, sheet_name="Laporan UMKM", startrow=1)
+        ws = writer.sheets["Laporan UMKM"]
+
+        n_cols = len(df.columns)
+        n_rows = len(df)
+        last_col = get_column_letter(n_cols)
+        cols = list(df.columns)
+        status_idx = cols.index("Status") + 1 if "Status" in cols else None
+        skor_idx   = cols.index("Skor") + 1 if "Skor" in cols else None
+
+        thin   = Side(style="thin", color="E5E7EB")
+        border = Border(left=thin, right=thin, top=thin, bottom=thin)
+
+        # ── Row 1 : Judul ──
+        ws.merge_cells(f"A1:{last_col}1")
+        judul = ws["A1"]
+        judul.value = "LAPORAN PEMANTAUAN UMKM - SIMANTAP DISKOP BANYUMAS"
+        judul.fill = PatternFill("solid", fgColor="7F1D1D")
+        judul.font = Font(name="Calibri", size=13, bold=True, color="FFFFFF")
+        judul.alignment = Alignment(horizontal="center", vertical="center")
+        ws.row_dimensions[1].height = 28
+
+        # ── Row 2 : Header tabel ──
+        header_fill  = PatternFill("solid", fgColor="B91C1C")
+        header_font  = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
+        header_align = Alignment(horizontal="center", vertical="center",
+                                 wrap_text=True)
+        ws.row_dimensions[2].height = 22
+        for c in range(1, n_cols + 1):
+            cell = ws.cell(row=2, column=c)
+            cell.fill = header_fill
+            cell.font = header_font
+            cell.alignment = header_align
+            cell.border = border
+
+        # ── Row 3+ : Data ──
+        status_style = {
+            "Kritis":          ("FEE2E2", "991B1B", True),
+            "Perlu Perhatian": ("FFFBEB", "92400E", False),
+            "Pantau":          ("F3F4F6", "374151", False),
+            "Baik":            ("DCFCE7", "166534", False),
+        }
+        white_fill = PatternFill("solid", fgColor="FFFFFF")
+        alt_fill   = PatternFill("solid", fgColor="FEF2F2")
+        body_font  = Font(name="Calibri", size=11, color="111827")
+        skor_font  = Font(name="Calibri", size=11, bold=True, color="111827")
+        left_align   = Alignment(horizontal="left", vertical="center",
+                                 wrap_text=True)
+        center_align = Alignment(horizontal="center", vertical="center")
+
+        for r in range(n_rows):
+            excel_row = 3 + r
+            row_fill = alt_fill if (r % 2 == 1) else white_fill
+            for c in range(1, n_cols + 1):
+                cell = ws.cell(row=excel_row, column=c)
+                cell.border = border
+                cell.fill = row_fill
+                cell.font = body_font
+                cell.alignment = left_align
+                if c == status_idx:
+                    style = status_style.get(str(cell.value))
+                    if style:
+                        bg, fg, bold = style
+                        cell.fill = PatternFill("solid", fgColor=bg)
+                        cell.font = Font(name="Calibri", size=11,
+                                         bold=bold, color=fg)
+                        cell.alignment = center_align
+                elif c == skor_idx:
+                    cell.font = skor_font
+                    cell.alignment = center_align
+
+        # ── Auto-fit lebar kolom (min 10, max 40) ──
+        for c, col_name in enumerate(cols, start=1):
+            max_len = len(str(col_name))
+            for val in df.iloc[:, c - 1].astype(str):
+                if len(val) > max_len:
+                    max_len = len(val)
+            ws.column_dimensions[get_column_letter(c)].width = max(
+                10, min(40, max_len + 2)
+            )
+
+        # ── Freeze pane (judul tetap terlihat) ──
+        ws.freeze_panes = "A2"
+
+    return buf.getvalue()
+
+
 def page_laporan():
     data = butuh_umkm_data()
     umkm = data["umkm"]
@@ -1449,11 +1611,7 @@ def page_laporan():
     st.dataframe(df_laporan, use_container_width=True, hide_index=True, height=380)
 
     csv_data = df_laporan.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig")
-
-    xlsx_buf = BytesIO()
-    with pd.ExcelWriter(xlsx_buf, engine="openpyxl") as writer:
-        df_laporan.to_excel(writer, index=False, sheet_name="Laporan UMKM")
-    xlsx_data = xlsx_buf.getvalue()
+    xlsx_data = _buat_xlsx_laporan(df_laporan)
 
     dl_csv, dl_xlsx = st.columns(2)
     with dl_csv:
