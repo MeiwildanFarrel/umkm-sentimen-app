@@ -265,9 +265,94 @@ div[data-testid="stAlert"]:has([kind="warning"]) * {
 }
 
 /* Tabel HTML mentah di markdown — pastikan teks default cell gelap
-   sehingga NAMA UMKM tidak tampil putih-di-putih */
-.block-container table td,
-.block-container table th { color: #111827; }
+   sehingga NAMA UMKM tidak tampil putih-di-putih. Hanya menarget tabel
+   yang TIDAK memiliki class kustom (mis. .tbl-preproses), supaya tidak
+   menimpa warna teks header putih pada tabel ber-class sendiri. */
+.block-container table:not([class]) td,
+.block-container table:not([class]) th { color: #111827; }
+
+/* Expander header — pastikan label "Cara Kerja Preprocessing" jelas */
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] details > summary,
+.streamlit-expanderHeader {
+    color: #111827 !important;
+    font-weight: 700 !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary div {
+    color: #111827 !important;
+    font-weight: 700 !important;
+}
+[data-testid="stExpander"] details[open] > summary {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom: 1px solid #E5E7EB !important;
+}
+
+/* Tabel "Cara Kerja Preprocessing" — semua warna dikunci !important
+   agar tidak bertabrakan dengan default theme Streamlit */
+.tbl-preproses {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    font-size: 0.9rem !important;
+    margin-top: 0.4rem !important;
+}
+.tbl-preproses thead tr { background: #B91C1C !important; }
+.tbl-preproses thead th {
+    color: #FFFFFF !important;
+    padding: 11px 14px !important;
+    font-size: 0.78rem !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+    letter-spacing: 0.03em !important;
+    border: none !important;
+    text-transform: uppercase !important;
+}
+.tbl-preproses thead th.col-no { text-align: center !important; width: 56px !important; }
+.tbl-preproses tbody td {
+    padding: 11px 14px !important;
+    border-bottom: 1px solid #E5E7EB !important;
+    vertical-align: top !important;
+    background: #FFFFFF !important;
+}
+.tbl-preproses tbody tr:nth-child(even) td { background: #F9FAFB !important; }
+.tbl-preproses tbody tr:last-child td { border-bottom: none !important; }
+.tbl-preproses tbody td.cell-no {
+    color: #6B7280 !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    width: 56px !important;
+}
+.tbl-preproses tbody td.cell-asli { color: #374151 !important; }
+.tbl-preproses tbody td.cell-hasil {
+    color: #166534 !important;
+    font-weight: 700 !important;
+    background: #F0FDF4 !important;
+}
+.tbl-preproses tbody tr:nth-child(even) td.cell-hasil {
+    background: #DCFCE7 !important;
+}
+
+/* Catatan 4-tahap di bawah tabel */
+.note-preproses {
+    font-size: 0.85rem !important;
+    color: #374151 !important;
+    margin-top: 12px !important;
+    padding: 10px 14px !important;
+    background: #F9FAFB !important;
+    border-left: 4px solid #B91C1C !important;
+    border-radius: 4px !important;
+}
+.note-preproses b { color: #111827 !important; }
+.note-preproses .tahap { color: #B91C1C !important; font-weight: 700 !important; }
 </style>
 """
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
@@ -978,46 +1063,42 @@ def page_analisis():
             ("Pengiriman lama bgt sampe 2 minggu, tp barangnya oke lah",
              "kirim lama minggu barang oke"),
         ]
-        baris_contoh = ""
-        for i, (asli, hasil) in enumerate(contoh_preproses, start=1):
-            baris_contoh += (
-                f'<tr>'
-                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
-                f'color:{TEKS2};text-align:center;font-weight:600;">{i}</td>'
-                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
-                f'color:#374151;">{asli}</td>'
-                f'<td style="padding:8px 12px;border-bottom:1px solid {BORDER};'
-                f'color:{HIJAU};font-weight:700;">{hasil}</td>'
-                f'</tr>'
-            )
+        baris_contoh = "".join(
+            f'<tr>'
+            f'<td class="cell-no">{i}</td>'
+            f'<td class="cell-asli">{asli}</td>'
+            f'<td class="cell-hasil">{hasil}</td>'
+            f'</tr>'
+            for i, (asli, hasil) in enumerate(contoh_preproses, start=1)
+        )
         st.markdown(
             f"""
-            <table style="width:100%;border-collapse:collapse;background:#FFFFFF;
-                border:1px solid {BORDER};border-radius:8px;overflow:hidden;
-                font-size:0.88rem;margin-top:0.4rem;">
-                <tr style="background:{MERAH};">
-                    <th style="padding:9px 12px;text-align:center;color:#FFFFFF;
-                        font-weight:700;font-size:0.78rem;width:50px;">NO</th>
-                    <th style="padding:9px 12px;text-align:left;color:#FFFFFF;
-                        font-weight:700;font-size:0.78rem;">TEKS ASLI</th>
-                    <th style="padding:9px 12px;text-align:left;color:#FFFFFF;
-                        font-weight:700;font-size:0.78rem;">HASIL PREPROCESSING</th>
-                </tr>
-                {baris_contoh}
+            <table class="tbl-preproses">
+                <thead>
+                    <tr>
+                        <th class="col-no">NO</th>
+                        <th>TEKS ASLI</th>
+                        <th>HASIL PREPROCESSING</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {baris_contoh}
+                </tbody>
             </table>
             """,
             unsafe_allow_html=True,
         )
         st.markdown(
-            f'<div style="font-size:0.8rem;color:{TEKS2};margin-top:10px;'
-            f'padding:9px 12px;background:#F9FAFB;border-left:3px solid {MERAH};'
-            f'border-radius:4px;">'
-            f'<b style="color:{TEKS};">4 Tahap Preprocessing:</b> '
-            f'<span style="color:#374151;">Lowercase → Cleaning '
-            f'(buang angka, tanda baca, karakter khusus) → Stopword Removal '
-            f'(buang kata umum seperti "yang", "di", "ke") → '
-            f'Stemming dengan <b>Sastrawi</b> (kata dasar bahasa Indonesia)'
-            f'</span></div>',
+            '<div class="note-preproses">'
+            '<b>4 Tahap Preprocessing:</b> '
+            '<span class="tahap">Lowercase</span> → '
+            '<span class="tahap">Cleaning</span> '
+            '(buang angka, tanda baca, karakter khusus) → '
+            '<span class="tahap">Stopword Removal</span> '
+            '(buang kata umum seperti "yang", "di", "ke") → '
+            '<span class="tahap">Stemming</span> dengan '
+            '<b>Sastrawi</b> (kata dasar bahasa Indonesia).'
+            '</div>',
             unsafe_allow_html=True,
         )
 
