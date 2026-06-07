@@ -219,6 +219,7 @@ print()
 print("[2/3] Menganalisis ulasan untuk 40 UMKM ...")
 
 hasil_umkm = []
+semua_reviews_detail = []          # ← untuk ekspor CSV
 aspek_keluhan_global = {a: 0 for a in ASPEK_KEYWORDS}
 
 for umkm in UMKM_MASTER:
@@ -258,6 +259,27 @@ for umkm in UMKM_MASTER:
             "sentimen": "Positive" if p_pos >= 0.5 else "Negative",
             "confidence_positif": p_pos,
             "aspek": deteksi_aspek(raw),
+        })
+
+    # ── Kumpulkan detail ulasan (untuk CSV) ──────────────────────────────────
+    for nomor, r in enumerate(reviews_hasil, start=1):
+        semua_reviews_detail.append({
+            "id_umkm":                umkm["id"],
+            "nama_umkm":              umkm["nama"],
+            "kategori_umkm":          umkm["kategori"],
+            "lokasi":                 umkm["lokasi"],
+            "produk_utama":           umkm["produk_utama"],
+            "kategori_sumber_prdect": umkm["prdect_category"],
+            "no_ulasan":              nomor,
+            "ulasan_asli":            r["review"],
+            "ulasan_preprocessed":    r["processed"],
+            "prediksi_sentimen":      r["sentimen"],
+            "confidence_positif":     round(r["confidence_positif"], 4),
+            "confidence_negatif":     round(1 - r["confidence_positif"], 4),
+            "aspek_kualitas":         r["aspek"]["Kualitas"],
+            "aspek_packaging":        r["aspek"]["Packaging"],
+            "aspek_harga":            r["aspek"]["Harga"],
+            "aspek_pengiriman":       r["aspek"]["Pengiriman"],
         })
 
     total = len(reviews_hasil)
@@ -373,6 +395,74 @@ with open("umkm_data.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 
 print("      [OK] umkm_data.json tersimpan (" + str(len(hasil_umkm)) + " UMKM).")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. EKSPOR CSV — Detail ulasan per baris
+# ─────────────────────────────────────────────────────────────────────────────
+CSV_PATH  = "umkm_reviews_detail.csv"
+XLSX_PATH = "umkm_summary.xlsx"
+
+df_detail = pd.DataFrame(semua_reviews_detail)
+df_detail.to_csv(CSV_PATH, index=False, encoding="utf-8-sig")
+print("      [OK] " + CSV_PATH + " tersimpan (" + str(len(df_detail)) + " baris ulasan).")
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 8. EKSPOR EXCEL — Ringkasan per UMKM (multi-sheet)
+# ─────────────────────────────────────────────────────────────────────────────
+baris_summary = []
+for u in hasil_umkm:
+    total_u = u["total_review"]
+    persen_pos = round(u["review_positif"] / total_u * 100, 1) if total_u else 0
+    rek = u["rekomendasi"]
+    baris_summary.append({
+        "ID UMKM":            u["id"],
+        "Nama UMKM":          u["nama"],
+        "Pemilik":            u["pemilik"],
+        "Kategori":           u["kategori"],
+        "Lokasi":             u["lokasi"],
+        "Produk Utama":       u["produk_utama"],
+        "Total Ulasan":       total_u,
+        "Ulasan Positif":     u["review_positif"],
+        "Ulasan Negatif":     u["review_negatif"],
+        "% Positif":          persen_pos,
+        "Skor Kesehatan":     u["skor"],
+        "Status":             u["status"],
+        "Kualitas (% pos)":   u["aspek"]["Kualitas"]["skor_positif"],
+        "Packaging (% pos)":  u["aspek"]["Packaging"]["skor_positif"],
+        "Harga (% pos)":      u["aspek"]["Harga"]["skor_positif"],
+        "Pengiriman (% pos)": u["aspek"]["Pengiriman"]["skor_positif"],
+        "Masalah Utama":      u["masalah_utama"],
+        "Rekomendasi 1":      rek[0] if len(rek) > 0 else "",
+        "Rekomendasi 2":      rek[1] if len(rek) > 1 else "",
+        "Rekomendasi 3":      rek[2] if len(rek) > 2 else "",
+        "Contoh Ulasan Positif": u["contoh_review_positif"],
+        "Contoh Ulasan Negatif": u["contoh_review_negatif"],
+    })
+
+df_summary = pd.DataFrame(baris_summary)
+
+try:
+    with pd.ExcelWriter(XLSX_PATH, engine="openpyxl") as writer:
+        # Sheet 1: Ringkasan UMKM
+        df_summary.to_excel(writer, sheet_name="Ringkasan UMKM", index=False)
+        ws1 = writer.sheets["Ringkasan UMKM"]
+        # Auto-lebar kolom
+        for col in ws1.columns:
+            max_len = max((len(str(c.value)) if c.value else 0) for c in col)
+            ws1.column_dimensions[col[0].column_letter].width = min(max_len + 4, 60)
+
+        # Sheet 2: Detail Ulasan
+        df_detail.to_excel(writer, sheet_name="Detail Ulasan", index=False)
+        ws2 = writer.sheets["Detail Ulasan"]
+        for col in ws2.columns:
+            max_len = max((len(str(c.value)) if c.value else 0) for c in col)
+            ws2.column_dimensions[col[0].column_letter].width = min(max_len + 4, 80)
+
+    print("      [OK] " + XLSX_PATH + " tersimpan (2 sheet: Ringkasan UMKM & Detail Ulasan).")
+except ImportError:
+    print("      [SKIP] openpyxl tidak terinstal — lewati ekspor Excel.")
+    print("             Install dengan: pip install openpyxl")
+
 print()
 print("=" * 66)
 print("  RINGKASAN STATUS UMKM")
