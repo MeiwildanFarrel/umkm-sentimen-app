@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-08 14:38:00",
+  "generated_at": "2026-06-08 19:44:20",
   "sumber_data": "Google Maps (pengumpulan manual)",
   "total_umkm": 8,
   "ringkasan": {
-    "kritis": 3,
-    "perlu_perhatian": 0,
-    "pantau": 3,
-    "baik": 2
+    "kritis": 2,
+    "perlu_perhatian": 1,
+    "pantau": 1,
+    "baik": 4
   },
   "aspek_keluhan_global": {
-    "Harga": 20,
-    "Kualitas": 18,
-    "Packaging": 10,
-    "Pengiriman": 6
+    "Harga": 14,
+    "Kualitas": 12,
+    "Packaging": 6,
+    "Pengiriman": 5
   },
   "umkm": [
     {
@@ -22,21 +22,21 @@
       "kategori": "Fashion",
       "lokasi": "Kecamatan Banyumas (Dusun Kalisuren, Desa Papringan)",
       "produk_utama": "Kain batik tulis dan cap klasik banyumasan dengan karakteristik warna soga (cokelat) dan wedelan (biru tua), pakaian batik jadi, serta produk suvenir berbahan kain batik.",
-      "skor": 69,
-      "status": "Pantau",
+      "skor": 88,
+      "status": "Baik",
       "total_review": 16,
-      "review_positif": 11,
-      "review_negatif": 5,
+      "review_positif": 16,
+      "review_negatif": 0,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 70,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 0
         },
         "Packaging": {
-          "skor_positif": 75,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 0
         },
         "Harga": {
           "skor_positif": 100,
@@ -44,32 +44,26 @@
           "keluhan_count": 0
         },
         "Pengiriman": {
-          "skor_positif": 67,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 0
         }
       },
       "kata_kunci_positif": [
         "batik",
         "bagus",
         "harga",
-        "tempat",
-        "tulis"
+        "banyumas",
+        "tempat"
       ],
-      "kata_kunci_negatif": [
-        "batik",
-        "produksi",
-        "ajar",
-        "sedia",
-        "banyumas"
-      ],
-      "masalah_utama": "Pengiriman",
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
       "rekomendasi": [
-        "Rekomendasi mitra ekspedisi yang lebih handal",
-        "Pelatihan manajemen pengiriman"
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
       ],
       "contoh_review_positif": "Batik Banyumas yang berkualitas. Ada harga, ada kualitas, Batik tulisnya keren keren, Harganya terjangkau, batiknya bagus dan keren",
-      "contoh_review_negatif": "Buat yang nyari batik Banyumas yg original (asli lukisan dan pewarnaan orang Banyumas)  tempat ini salah satu yg recomended. Sering bawa tamu dr dalam dan luar negeri"
+      "contoh_review_negatif": ""
     },
     {
       "id": "R002",
@@ -78,16 +72,16 @@
       "kategori": "Kuliner",
       "lokasi": "Kecamatan Banyumas (Desa Pekunden)",
       "produk_utama": "Nopia (ukuran besar) dan Mino (Mini Nopia) dengan isian orisinal gula jawa serta varian rasa lain seperti bawang goreng, susu, cokelat, dan durian.",
-      "skor": 64,
+      "skor": 59,
       "status": "Pantau",
       "total_review": 11,
-      "review_positif": 7,
-      "review_negatif": 4,
+      "review_positif": 6,
+      "review_negatif": 5,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 71,
+          "skor_positif": 57,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 3
         },
         "Packaging": {
           "skor_positif": 50,
@@ -116,8 +110,8 @@
         "kurang",
         "parkir",
         "saudara",
-        "bayar",
-        "situ"
+        "bagus",
+        "bayar"
       ],
       "masalah_utama": "Pengiriman",
       "rekomendasi": [
@@ -185,26 +179,26 @@
       "kategori": "Kuliner",
       "lokasi": "Banyumas",
       "produk_utama": "Soto, makanan khas Purwokerto, dan minuman",
-      "skor": 5,
+      "skor": 36,
       "status": "Kritis",
-      "total_review": 13,
-      "review_positif": 0,
-      "review_negatif": 13,
+      "total_review": 15,
+      "review_positif": 7,
+      "review_negatif": 8,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 0,
+          "skor_positif": 56,
           "terdeteksi": true,
-          "keluhan_count": 7
+          "keluhan_count": 4
         },
         "Packaging": {
-          "skor_positif": 50,
-          "terdeteksi": false,
+          "skor_positif": 100,
+          "terdeteksi": true,
           "keluhan_count": 0
         },
         "Harga": {
-          "skor_positif": 0,
+          "skor_positif": 12,
           "terdeteksi": true,
-          "keluhan_count": 9
+          "keluhan_count": 7
         },
         "Pengiriman": {
           "skor_positif": 50,
@@ -212,21 +206,26 @@
           "keluhan_count": 0
         }
       },
-      "kata_kunci_positif": [],
-      "kata_kunci_negatif": [
+      "kata_kunci_positif": [
         "soto",
+        "makan",
+        "sambal",
+        "kacang",
+        "tidak"
+      ],
+      "kata_kunci_negatif": [
         "mahal",
         "harga",
-        "tidak",
-        "porsi"
+        "kampung",
+        "kurang",
+        "tidak"
       ],
-      "masalah_utama": "Kualitas",
+      "masalah_utama": "Harga",
       "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control",
-        "Analisis struktur biaya dengan konsultan Diskop"
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
       ],
-      "contoh_review_positif": "",
+      "contoh_review_positif": "Istimewa , rasanya mantap .",
       "contoh_review_negatif": "Soto nya manis, spt nya tidak menggunakan vetsin atau penyedap rasa dan lbh mengandalkan gula sbg penyedap dan kuah kurang panas. Ketika mencoba tambah garam malah rasanya jadi aneh.  Utk penikmat soto dgn rasa yg gurih, agak kurang cocok."
     },
     {
@@ -236,26 +235,26 @@
       "kategori": "Kuliner",
       "lokasi": "Purwokerto Utara",
       "produk_utama": "Kopi, minuman espresso based, makanan ringan, dan menu kafe",
-      "skor": 33,
-      "status": "Kritis",
-      "total_review": 13,
-      "review_positif": 4,
-      "review_negatif": 9,
+      "skor": 46,
+      "status": "Perlu Perhatian",
+      "total_review": 12,
+      "review_positif": 6,
+      "review_negatif": 6,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 33,
+          "skor_positif": 40,
           "terdeteksi": true,
-          "keluhan_count": 4
+          "keluhan_count": 3
         },
         "Packaging": {
-          "skor_positif": 33,
+          "skor_positif": 67,
           "terdeteksi": true,
-          "keluhan_count": 4
+          "keluhan_count": 2
         },
         "Harga": {
-          "skor_positif": 33,
+          "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 4
+          "keluhan_count": 3
         },
         "Pengiriman": {
           "skor_positif": 0,
@@ -266,16 +265,16 @@
       "kata_kunci_positif": [
         "enak",
         "tempat",
-        "makan",
         "nyaman",
-        "adem"
+        "makan",
+        "lokasi"
       ],
       "kata_kunci_negatif": [
         "makan",
         "layan",
-        "nyaman",
         "harga",
-        "tempat"
+        "sampe",
+        "jam"
       ],
       "masalah_utama": "Pengiriman",
       "rekomendasi": [
@@ -293,11 +292,11 @@
       "kategori": "Kuliner",
       "lokasi": "Purwokerto Selatan",
       "produk_utama": "Biji Kopi dan minuman kopi pilihan",
-      "skor": 69,
-      "status": "Pantau",
+      "skor": 81,
+      "status": "Baik",
       "total_review": 10,
-      "review_positif": 7,
-      "review_negatif": 3,
+      "review_positif": 9,
+      "review_negatif": 1,
       "aspek": {
         "Kualitas": {
           "skor_positif": 100,
@@ -310,9 +309,9 @@
           "keluhan_count": 0
         },
         "Harga": {
-          "skor_positif": 50,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 0
         },
         "Pengiriman": {
           "skor_positif": 50,
@@ -323,21 +322,20 @@
       "kata_kunci_positif": [
         "kopi",
         "ramah",
+        "beli",
         "enak",
-        "pilih",
-        "beli"
+        "beans"
       ],
       "kata_kunci_negatif": [
-        "kopi",
-        "beans",
         "giling",
-        "kali",
-        "kesini"
+        "halus",
+        "kasih",
+        "kasar"
       ],
-      "masalah_utama": "Harga",
+      "masalah_utama": "Tidak ada",
       "rekomendasi": [
-        "Analisis struktur biaya dengan konsultan Diskop",
-        "Evaluasi strategi penetapan harga"
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
       ],
       "contoh_review_positif": "Pilihan beragam, sebagai pecinta arabika, banyak opsi kopi enak dan mantap",
       "contoh_review_negatif": "Saya minta giling halus malah dikasih kasar"
@@ -356,14 +354,14 @@
       "review_negatif": 8,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 75,
+          "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 2
         },
         "Packaging": {
-          "skor_positif": 40,
+          "skor_positif": 60,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 2
         },
         "Harga": {
           "skor_positif": 60,
@@ -378,25 +376,25 @@
       },
       "kata_kunci_positif": [
         "makan",
-        "personal",
-        "here",
-        "good",
-        "praketa"
+        "nyaman",
+        "parkir",
+        "minum",
+        "personal"
       ],
       "kata_kunci_negatif": [
         "kurang",
-        "kopi",
         "enak",
-        "luas",
-        "layan"
+        "kopi",
+        "layan",
+        "customer"
       ],
-      "masalah_utama": "Packaging",
+      "masalah_utama": "Kualitas",
       "rekomendasi": [
-        "Ikutkan dalam pelatihan packaging Diskop",
-        "Konsultasi desain kemasan dengan mentor",
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control",
         "Rekomendasi mitra ekspedisi yang lebih handal"
       ],
-      "contoh_review_positif": "Okelah.. singkongnya ok banget... Kopi Wamena nya jossssnya pooolll... tempe Mendoaannya garing garing...",
+      "contoh_review_positif": "Tempatnya nyaman dengan suasananya ala vintage, harga makanan dan minumannya worth it untuk kantong mahasiswa dan pekerja.",
       "contoh_review_negatif": "Punten ya min, habis dapet pelayanan yang kurang mengenakan dr mba mba nya, kalau menawarkan bisa jgn terlalu maksa gitu, mengangu kenyaman sebagai customer, apa lg dengan nada bicara yang kurang humbel, terimaksi????"
     },
     {
@@ -406,16 +404,16 @@
       "kategori": "Fashion",
       "lokasi": "Banyumas",
       "produk_utama": "Batik, kain, pakaian, dan suvenir berbahan kain",
-      "skor": 81,
+      "skor": 93,
       "status": "Baik",
       "total_review": 10,
-      "review_positif": 8,
-      "review_negatif": 2,
+      "review_positif": 10,
+      "review_negatif": 0,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 83,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 0
         },
         "Packaging": {
           "skor_positif": 100,
@@ -423,9 +421,9 @@
           "keluhan_count": 0
         },
         "Harga": {
-          "skor_positif": 67,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 0
         },
         "Pengiriman": {
           "skor_positif": 100,
@@ -435,25 +433,19 @@
       },
       "kata_kunci_positif": [
         "batik",
-        "toko",
-        "khas",
         "banyumas",
-        "pilih"
-      ],
-      "kata_kunci_negatif": [
-        "batik",
-        "sedia",
+        "pilih",
         "kain",
-        "butik",
-        "asli"
+        "harga"
       ],
-      "masalah_utama": "Harga",
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
       "rekomendasi": [
-        "Analisis struktur biaya dengan konsultan Diskop",
-        "Evaluasi strategi penetapan harga"
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
       ],
       "contoh_review_positif": "Keren dan berkualitas",
-      "contoh_review_negatif": "Batiknya banyak pilihan. Pemesanan bisa juga melalui WA untuk mengecek ketersediaannya. Pembayaran juga dapat dilakukan secara non tunai."
+      "contoh_review_negatif": ""
     }
   ]
 }

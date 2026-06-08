@@ -921,8 +921,7 @@ def page_detail():
             f'<div style="font-size:1.5rem;font-weight:800;color:{TEKS};">'
             f'{umkm["nama"]}</div>'
             f'<div style="color:{TEKS2};font-size:0.9rem;margin-top:3px;">'
-            f'Pemilik: {umkm["pemilik"]} · {umkm["kategori"]} · '
-            f'{umkm["lokasi"]}</div>'
+            f'{umkm["kategori"]} · {umkm["lokasi"]}</div>'
             f'<div style="color:{TEKS2};font-size:0.9rem;">'
             f'Produk: {umkm["produk_utama"]}</div>',
             unsafe_allow_html=True)

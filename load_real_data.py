@@ -213,30 +213,40 @@ for idx, (nama_umkm, grup) in enumerate(df_raw.groupby("nama_umkm", sort=False),
     lokasi     = grup["lokasi"].iloc[0]
     produk     = grup["produk_utama"].iloc[0]
 
-    ulasan_list = grup["ulasan"].astype(str).tolist()
+    # Buang baris dengan label kosong dan duplikat ulasan
+    grup = grup[grup["label_sentimen"].notna() & (grup["label_sentimen"].str.strip() != "")]
+    grup = grup.drop_duplicates(subset=["ulasan"])
+
+    ulasan_list  = grup["ulasan"].astype(str).tolist()
+    label_list   = grup["label_sentimen"].astype(str).tolist()
 
     # a. Preprocessing
-    pasangan = [(raw, preprocess(raw)) for raw in ulasan_list]
-    pasangan = [(raw, pro) for raw, pro in pasangan if pro.strip()]
+    pasangan = [(raw, preprocess(raw), lbl) for raw, lbl in zip(ulasan_list, label_list)]
+    pasangan = [(raw, pro, lbl) for raw, pro, lbl in pasangan if pro.strip()]
     if not pasangan:
         print(f"      {umkm_id} {nama_umkm} — SKIP (semua ulasan kosong setelah preprocessing)")
         continue
 
     raws  = [p[0] for p in pasangan]
     procs = [p[1] for p in pasangan]
+    lbls  = [p[2] for p in pasangan]
 
-    # b. Klasifikasi SVM
+    # b. SVM untuk confidence score (bukan untuk label)
     vecs   = vectorizer.transform(procs)
     probas = svm_model.predict_proba(vecs)
 
+    def label_to_sentimen(lbl: str) -> str:
+        """Konversi label manual CSV → format internal sistem (Positif→Positive, lainnya→Negative)."""
+        return "Positive" if str(lbl).strip().lower() == "positif" else "Negative"
+
     reviews_hasil = []
-    for raw, pro, pr in zip(raws, procs, probas):
+    for raw, pro, pr, lbl in zip(raws, procs, probas, lbls):
         p_pos = float(pr[POS_IDX])
         reviews_hasil.append({
             "review":            raw,
             "processed":         pro,
-            "sentimen":          "Positive" if p_pos >= 0.5 else "Negative",
-            "confidence_positif": p_pos,
+            "sentimen":          label_to_sentimen(lbl),   # ← dari label manual
+            "confidence_positif": p_pos,                   # ← dari SVM
             "aspek":             deteksi_aspek(raw),
         })
 
