@@ -296,6 +296,8 @@ for idx, (nama_umkm, grup) in enumerate(df_raw.groupby("nama_umkm", sort=False),
             "skor_positif":  skor_pos,
             "terdeteksi":    terdeteksi,
             "keluhan_count": keluhan,
+            "positif_count": pos if disebut else 0,
+            "total_mention": len(disebut),
         }
 
     # f. Kata kunci dominan

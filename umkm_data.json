@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08 19:44:20",
+  "generated_at": "2026-06-08 20:27:04",
   "sumber_data": "Google Maps (pengumpulan manual)",
   "total_umkm": 8,
   "ringkasan": {
@@ -31,22 +31,30 @@
         "Kualitas": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 10,
+          "total_mention": 10
         },
         "Packaging": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
         },
         "Harga": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
         },
         "Pengiriman": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
         }
       },
       "kata_kunci_positif": [
@@ -81,22 +89,30 @@
         "Kualitas": {
           "skor_positif": 57,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 3,
+          "positif_count": 4,
+          "total_mention": 7
         },
         "Packaging": {
           "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 2,
+          "total_mention": 4
         },
         "Harga": {
           "skor_positif": 33,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 1,
+          "total_mention": 3
         },
         "Pengiriman": {
           "skor_positif": 0,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 1,
+          "positif_count": 0,
+          "total_mention": 1
         }
       },
       "kata_kunci_positif": [
@@ -138,22 +154,30 @@
         "Kualitas": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 9,
+          "total_mention": 9
         },
         "Packaging": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 6,
+          "total_mention": 6
         },
         "Harga": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
         },
         "Pengiriman": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
         }
       },
       "kata_kunci_positif": [
@@ -188,22 +212,30 @@
         "Kualitas": {
           "skor_positif": 56,
           "terdeteksi": true,
-          "keluhan_count": 4
+          "keluhan_count": 4,
+          "positif_count": 5,
+          "total_mention": 9
         },
         "Packaging": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
         },
         "Harga": {
           "skor_positif": 12,
           "terdeteksi": true,
-          "keluhan_count": 7
+          "keluhan_count": 7,
+          "positif_count": 1,
+          "total_mention": 8
         },
         "Pengiriman": {
           "skor_positif": 50,
           "terdeteksi": false,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
         }
       },
       "kata_kunci_positif": [
@@ -244,22 +276,30 @@
         "Kualitas": {
           "skor_positif": 40,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 3,
+          "positif_count": 2,
+          "total_mention": 5
         },
         "Packaging": {
           "skor_positif": 67,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 4,
+          "total_mention": 6
         },
         "Harga": {
           "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 3,
+          "positif_count": 3,
+          "total_mention": 6
         },
         "Pengiriman": {
           "skor_positif": 0,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 3,
+          "positif_count": 0,
+          "total_mention": 3
         }
       },
       "kata_kunci_positif": [
@@ -301,22 +341,30 @@
         "Kualitas": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
         },
         "Packaging": {
           "skor_positif": 50,
           "terdeteksi": false,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
         },
         "Harga": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
         },
         "Pengiriman": {
           "skor_positif": 50,
           "terdeteksi": false,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
         }
       },
       "kata_kunci_positif": [
@@ -356,22 +404,30 @@
         "Kualitas": {
           "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 2,
+          "total_mention": 4
         },
         "Packaging": {
           "skor_positif": 60,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 3,
+          "total_mention": 5
         },
         "Harga": {
           "skor_positif": 60,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 2,
+          "positif_count": 3,
+          "total_mention": 5
         },
         "Pengiriman": {
           "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 1,
+          "positif_count": 1,
+          "total_mention": 2
         }
       },
       "kata_kunci_positif": [
@@ -413,22 +469,30 @@
         "Kualitas": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 6,
+          "total_mention": 6
         },
         "Packaging": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
         },
         "Harga": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 6,
+          "total_mention": 6
         },
         "Pengiriman": {
           "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 0
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
         }
       },
       "kata_kunci_positif": [

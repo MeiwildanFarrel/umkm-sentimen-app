@@ -965,7 +965,7 @@ def page_detail():
                     f'<div style="width:{sp}%;height:100%;background:{warna};">'
                     f'</div></div>'
                     f'<div style="font-size:0.76rem;color:{TEKS3};margin-top:3px;">'
-                    f'{d["keluhan_count"]} ulasan negatif menyebut aspek ini</div>'
+                    f'{d.get("positif_count", 0)} positif · {d["keluhan_count"]} negatif · dari {d.get("total_mention", 0)} ulasan yang menyebut aspek ini</div>'
                     f'</div>',
                     unsafe_allow_html=True)
 
