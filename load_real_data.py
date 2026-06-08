@@ -152,7 +152,7 @@ def preprocess(text: str) -> str:
 # ─────────────────────────────────────────────────────────────────────────────
 # 3. BACA & BERSIHKAN CSV
 # ─────────────────────────────────────────────────────────────────────────────
-CSV_INPUT = "data_ulasan_umkm.csv"
+CSV_INPUT = "data_ulasan_umkm_clean.csv"
 print()
 print("[2/4] Membaca " + CSV_INPUT + " ...")
 

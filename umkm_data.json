@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-07 22:33:21",
+  "generated_at": "2026-06-08 14:38:00",
   "sumber_data": "Google Maps (pengumpulan manual)",
-  "total_umkm": 26,
+  "total_umkm": 8,
   "ringkasan": {
     "kritis": 3,
-    "perlu_perhatian": 1,
-    "pantau": 19,
-    "baik": 3
+    "perlu_perhatian": 0,
+    "pantau": 3,
+    "baik": 2
   },
   "aspek_keluhan_global": {
-    "Harga": 31,
-    "Kualitas": 28,
-    "Packaging": 25,
-    "Pengiriman": 24
+    "Harga": 20,
+    "Kualitas": 18,
+    "Packaging": 10,
+    "Pengiriman": 6
   },
   "umkm": [
     {
@@ -22,16 +22,16 @@
       "kategori": "Fashion",
       "lokasi": "Kecamatan Banyumas (Dusun Kalisuren, Desa Papringan)",
       "produk_utama": "Kain batik tulis dan cap klasik banyumasan dengan karakteristik warna soga (cokelat) dan wedelan (biru tua), pakaian batik jadi, serta produk suvenir berbahan kain batik.",
-      "skor": 75,
-      "status": "Baik",
-      "total_review": 4,
-      "review_positif": 3,
-      "review_negatif": 1,
+      "skor": 69,
+      "status": "Pantau",
+      "total_review": 16,
+      "review_positif": 11,
+      "review_negatif": 5,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 75,
+          "skor_positif": 70,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 3
         },
         "Packaging": {
           "skor_positif": 75,
@@ -39,37 +39,37 @@
           "keluhan_count": 1
         },
         "Harga": {
-          "skor_positif": 75,
+          "skor_positif": 100,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 0
         },
         "Pengiriman": {
-          "skor_positif": 75,
+          "skor_positif": 67,
           "terdeteksi": true,
           "keluhan_count": 1
         }
       },
       "kata_kunci_positif": [
         "batik",
-        "harga",
         "bagus",
-        "kualitas",
-        "produk"
+        "harga",
+        "tempat",
+        "tulis"
       ],
       "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
+        "batik",
+        "produksi",
+        "ajar",
+        "sedia",
+        "banyumas"
       ],
-      "masalah_utama": "Kualitas",
+      "masalah_utama": "Pengiriman",
       "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman"
       ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
+      "contoh_review_positif": "Batik Banyumas yang berkualitas. Ada harga, ada kualitas, Batik tulisnya keren keren, Harganya terjangkau, batiknya bagus dan keren",
+      "contoh_review_negatif": "Buat yang nyari batik Banyumas yg original (asli lukisan dan pewarnaan orang Banyumas)  tempat ini salah satu yg recomended. Sering bawa tamu dr dalam dan luar negeri"
     },
     {
       "id": "R002",
@@ -78,1065 +78,58 @@
       "kategori": "Kuliner",
       "lokasi": "Kecamatan Banyumas (Desa Pekunden)",
       "produk_utama": "Nopia (ukuran besar) dan Mino (Mini Nopia) dengan isian orisinal gula jawa serta varian rasa lain seperti bawang goreng, susu, cokelat, dan durian.",
-      "skor": 73,
+      "skor": 64,
       "status": "Pantau",
-      "total_review": 4,
-      "review_positif": 3,
-      "review_negatif": 1,
+      "total_review": 11,
+      "review_positif": 7,
+      "review_negatif": 4,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 75,
+          "skor_positif": 71,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 2
         },
         "Packaging": {
-          "skor_positif": 75,
+          "skor_positif": 50,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 2
         },
         "Harga": {
-          "skor_positif": 75,
+          "skor_positif": 33,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 2
         },
         "Pengiriman": {
-          "skor_positif": 75,
+          "skor_positif": 0,
           "terdeteksi": true,
           "keluhan_count": 1
         }
       },
       "kata_kunci_positif": [
         "nopia",
-        "produk",
-        "mino",
-        "enak",
-        "kualitas"
+        "khas",
+        "makan",
+        "banyumas",
+        "gula"
       ],
       "kata_kunci_negatif": [
         "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
+        "parkir",
+        "saudara",
+        "bayar",
+        "situ"
       ],
-      "masalah_utama": "Kualitas",
+      "masalah_utama": "Pengiriman",
       "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman",
+        "Analisis struktur biaya dengan konsultan Diskop"
       ],
-      "contoh_review_positif": "nopia dan mino di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas nopia dan mino yang diberikan. Lokasinya mudah ditemukan dan cocok...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas nopia dan mino kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup..."
+      "contoh_review_positif": "Nyaman menyenangkan dan unik,makanan spesifik dan super enaaak.",
+      "contoh_review_negatif": "Kurang memuaskan, karena harus bayar parkir, karena saya sering bgt beli di alfamart, jadi setiap ke situ harus bayar parkir sepertinya males bgt jadinya belanja di situ. Saran saja kalo bisa jgn ada tukang parkirnya, kurang nyaman karena itu sepertinya ilegal."
     },
     {
       "id": "R003",
-      "nama": "Getuk Goreng ASLI H. Tohirin 5",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Sokaraja, Banyumas",
-      "produk_utama": "Getuk goreng & camilan",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "getuk",
-        "goreng",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "getuk goreng di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas getuk goreng yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas getuk goreng kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R004",
-      "nama": "Pusat Oleh-Oleh ECO21",
-      "pemilik": "-",
-      "kategori": "Lainnya",
-      "lokasi": "Kecamatan Purwokerto Barat\n(Kawasan Sawangan)",
-      "produk_utama": "Oleh-oleh khas Banyumas, camilan tradisional, getuk, lanting, dan keripik",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "kualitas",
-        "sesuai",
-        "cepat",
-        "tidak"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "oleh-oleh di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas oleh-oleh yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas oleh-oleh kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R005",
-      "nama": "Soto Sutri 1 Sokaraja",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Kecamatan Sokaraja",
-      "produk_utama": "Soto Sokaraja, sambal kacang, kerupuk mie, dan minuman",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "soto",
-        "sokaraja",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "soto Sokaraja di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas soto Sokaraja yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas soto Sokaraja kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup..."
-    },
-    {
-      "id": "R006",
-      "nama": "Bakso Pekih",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Bakso, mie bakso, tetelan, dan minuman",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "bakso",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "bakso di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas bakso yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas bakso kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R007",
-      "nama": "Bakso dan Soto Sokaraja Sami Asih",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Bakso, soto Sokaraja, mie, dan minuman",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "bakso",
-        "soto",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "bakso dan soto di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas bakso dan soto yang diberikan. Lokasinya mudah ditemukan dan cocok...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas bakso dan soto kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup..."
-    },
-    {
-      "id": "R008",
-      "nama": "Rumah Batik Anto Djamil",
-      "pemilik": "-",
-      "kategori": "Fashion",
-      "lokasi": "Sokaraja, Banyumas",
-      "produk_utama": "Batik Banyumasan, kain batik, pakaian jadi, dan suvenir",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "batik",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R009",
-      "nama": "Oemah Daun Cafe & Resto",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto Selatan",
-      "produk_utama": "Makanan keluarga, menu nusantara, kopi, dan minuman",
-      "skor": 65,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "makan",
-        "minum",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "makanan dan minuman di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas makanan dan minuman yang diberikan. Lokasinya mudah ditemukan dan...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas makanan dan minuman kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang..."
-    },
-    {
-      "id": "R010",
-      "nama": "Awor Coffee Purwokerto",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Kopi, minuman espresso based, makanan ringan, dan menu kafe",
-      "skor": 65,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "kopi",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "kopi di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas kopi yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi lagi....",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas kopi kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R011",
-      "nama": "Quattro Cafe Purwokerto",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto Timur",
-      "produk_utama": "Pizza, pasta, kopi, makanan barat, dan minuman",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "menu",
-        "produk",
-        "kafe",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "menu kafe di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas menu kafe yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas menu kafe kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R012",
-      "nama": "Raja Soto Lama H. Suradi",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Soto, makanan khas Purwokerto, dan minuman",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "soto",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "soto di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas soto yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi lagi....",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas soto kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R013",
-      "nama": "Empal Kupat Banyumasan",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto Timur",
-      "produk_utama": "Empal kupat, sate, nasi, dan menu cepat saji",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "empal",
-        "kupat",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "empal kupat di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas empal kupat yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas empal kupat kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R014",
-      "nama": "Ayam Gepruk Sambel Obong",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Ayam gepruk, sambal, tahu, tempe, dan lauk tambahan",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "ayam",
-        "gepruk",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "ayam gepruk di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas ayam gepruk yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas ayam gepruk kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R015",
-      "nama": "Batik Banyumasan Hadi Priyanto",
-      "pemilik": "-",
-      "kategori": "Fashion",
-      "lokasi": "Banyumas",
-      "produk_utama": "Kain batik Banyumasan, pakaian batik, dan produk tekstil lokal",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "batik",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R016",
-      "nama": "Batik Benang Raja",
-      "pemilik": "-",
-      "kategori": "Fashion",
-      "lokasi": "Banyumas",
-      "produk_utama": "Batik, kain, pakaian, dan produk fashion lokal",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "batik",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R017",
-      "nama": "Batik I'ah",
-      "pemilik": "-",
-      "kategori": "Fashion",
-      "lokasi": "Banyumas",
-      "produk_utama": "Produk batik lokal, kain batik, dan pakaian batik",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "batik",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R018",
-      "nama": "Batik Laras",
-      "pemilik": "-",
-      "kategori": "Fashion",
-      "lokasi": "Banyumas",
-      "produk_utama": "Batik, kain, pakaian, dan suvenir berbahan kain",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "batik",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "batik di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas batik yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas batik kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R019",
-      "nama": "Toko Roti Go Purwokerto",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto",
-      "produk_utama": "Roti, kue, pastry, dan camilan bakery",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "roti",
-        "kue",
-        "kualitas",
-        "sesuai"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "roti dan kue di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas roti dan kue yang diberikan. Lokasinya mudah ditemukan dan cocok untuk...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas roti dan kue kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R020",
-      "nama": "Mendoan Pak Karjo",
-      "pemilik": "-",
-      "kategori": "Kuliner",
-      "lokasi": "Purwokerto Timur",
-      "produk_utama": "Mendoan, gorengan, sambal kecap, dan camilan hangat",
-      "skor": 66,
-      "status": "Pantau",
-      "total_review": 3,
-      "review_positif": 2,
-      "review_negatif": 1,
-      "aspek": {
-        "Kualitas": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Packaging": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Harga": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        },
-        "Pengiriman": {
-          "skor_positif": 67,
-          "terdeteksi": true,
-          "keluhan_count": 1
-        }
-      },
-      "kata_kunci_positif": [
-        "produk",
-        "mendoan",
-        "kualitas",
-        "sesuai",
-        "cepat"
-      ],
-      "kata_kunci_negatif": [
-        "kurang",
-        "produk",
-        "kualitas",
-        "layan",
-        "langgan"
-      ],
-      "masalah_utama": "Kualitas",
-      "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
-      ],
-      "contoh_review_positif": "mendoan di sini enak dan kualitasnya konsisten. Pelayanannya ramah, cepat, dan membuat pelanggan nyaman. Tempatnya bersih sehingga saya merasa nyaman saat berkunjung. Harga masih sesuai dengan kualitas mendoan yang diberikan. Lokasinya mudah ditemukan dan cocok untuk dikunjungi...",
-      "contoh_review_negatif": "Pelayanan terasa lambat dan kurang sigap saat pelanggan ramai. Kualitas mendoan kurang sesuai dengan ekspektasi saya. Harga terasa kurang sebanding dengan porsi atau kualitas produk. Tempatnya kurang nyaman karena terlalu ramai dan ruangnya sempit. Pesanan datang cukup lama..."
-    },
-    {
-      "id": "R021",
       "nama": "NGAPAK (Pusat Oleh-Oleh Khas Purwokerto)",
       "pemilik": "-",
       "kategori": "Fashion",
@@ -1144,8 +137,8 @@
       "produk_utama": "Mendoan, getuk goreng, keripik, oleh-oleh khas Banyumas",
       "skor": 97,
       "status": "Baik",
-      "total_review": 2,
-      "review_positif": 2,
+      "total_review": 10,
+      "review_positif": 10,
       "review_negatif": 0,
       "aspek": {
         "Kualitas": {
@@ -1172,9 +165,9 @@
       "kata_kunci_positif": [
         "purwokerto",
         "khas",
-        "pusat",
-        "ngapak",
-        "lengkap"
+        "tempat",
+        "bersih",
+        "ramah"
       ],
       "kata_kunci_negatif": [],
       "masalah_utama": "Tidak ada",
@@ -1182,11 +175,11 @@
         "Pertahankan kualitas produk dan layanan saat ini",
         "Berpotensi dijadikan UMKM percontohan binaan Diskop"
       ],
-      "contoh_review_positif": "Tempat Ngapak pusat oleh-oleh khas Purwokerto yang lengkap dan nyaman. Menyediakan berbagai camilan seperti getuk goreng, nopia-mino, dan mendoan instan dengan kemasan menarik. Tempatnya bersih, pelayanannya ramah, dan cocok untuk berburu buah tangan. Rekomendasi terbaik saat...",
+      "contoh_review_positif": "Pusat oleh-oleh khas Purwokerto Tempatnya nyaman, bersih, merchandise lucu-lucu.",
       "contoh_review_negatif": ""
     },
     {
-      "id": "R022",
+      "id": "R004",
       "nama": "Soto Sangka Banyumas",
       "pemilik": "-",
       "kategori": "Kuliner",
@@ -1194,14 +187,14 @@
       "produk_utama": "Soto, makanan khas Purwokerto, dan minuman",
       "skor": 5,
       "status": "Kritis",
-      "total_review": 7,
+      "total_review": 13,
       "review_positif": 0,
-      "review_negatif": 7,
+      "review_negatif": 13,
       "aspek": {
         "Kualitas": {
           "skor_positif": 0,
           "terdeteksi": true,
-          "keluhan_count": 4
+          "keluhan_count": 7
         },
         "Packaging": {
           "skor_positif": 50,
@@ -1211,7 +204,7 @@
         "Harga": {
           "skor_positif": 0,
           "terdeteksi": true,
-          "keluhan_count": 5
+          "keluhan_count": 9
         },
         "Pengiriman": {
           "skor_positif": 50,
@@ -1234,35 +227,35 @@
         "Analisis struktur biaya dengan konsultan Diskop"
       ],
       "contoh_review_positif": "",
-      "contoh_review_negatif": "Rasa tidak seenak dulu dan harga saya rasa terlalu mahal buat soto dgn porsi kecil yg spt itu. Juga tidak adanya lahan parkir yg membuat susah bila mau mengunjungi warung ini"
+      "contoh_review_negatif": "Soto nya manis, spt nya tidak menggunakan vetsin atau penyedap rasa dan lbh mengandalkan gula sbg penyedap dan kuah kurang panas. Ketika mencoba tambah garam malah rasanya jadi aneh.  Utk penikmat soto dgn rasa yg gurih, agak kurang cocok."
     },
     {
-      "id": "R023",
+      "id": "R005",
       "nama": "Kopi Kami, Untuk Kamu",
       "pemilik": "-",
       "kategori": "Kuliner",
       "lokasi": "Purwokerto Utara",
       "produk_utama": "Kopi, minuman espresso based, makanan ringan, dan menu kafe",
-      "skor": 32,
+      "skor": 33,
       "status": "Kritis",
-      "total_review": 7,
-      "review_positif": 2,
-      "review_negatif": 5,
+      "total_review": 13,
+      "review_positif": 4,
+      "review_negatif": 9,
       "aspek": {
         "Kualitas": {
           "skor_positif": 33,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 4
         },
         "Packaging": {
-          "skor_positif": 25,
+          "skor_positif": 33,
           "terdeteksi": true,
-          "keluhan_count": 3
+          "keluhan_count": 4
         },
         "Harga": {
           "skor_positif": 33,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 4
         },
         "Pengiriman": {
           "skor_positif": 0,
@@ -1271,39 +264,39 @@
         }
       },
       "kata_kunci_positif": [
+        "enak",
         "tempat",
         "makan",
         "nyaman",
-        "adem",
-        "kursi"
+        "adem"
       ],
       "kata_kunci_negatif": [
         "makan",
         "layan",
-        "tempat",
         "nyaman",
-        "pesan"
+        "harga",
+        "tempat"
       ],
       "masalah_utama": "Pengiriman",
       "rekomendasi": [
         "Rekomendasi mitra ekspedisi yang lebih handal",
         "Pelatihan manajemen pengiriman",
-        "Ikutkan dalam pelatihan packaging Diskop"
+        "Kunjungan lapangan untuk evaluasi proses produksi"
       ],
       "contoh_review_positif": "Tempatnya nyaman, adem, banyak kursi, ada mushola, harga affordable, free wifi. The best pokoknya. Semoga rame yaa...",
       "contoh_review_negatif": "Mohon maaf saya berikan bintang 1. Pernah makan di sini dan pesanan datang lama sekali hampir 1 jam padahal di sana tidak banyak tamu. Mohon diperbaiki pelayanan nya, Tempat yang nyaman akan sia-sia jika masakan disajikan terlalu lama."
     },
     {
-      "id": "R024",
+      "id": "R006",
       "nama": "Nakopi Roastery",
       "pemilik": "-",
       "kategori": "Kuliner",
       "lokasi": "Purwokerto Selatan",
       "produk_utama": "Biji Kopi dan minuman kopi pilihan",
-      "skor": 42,
-      "status": "Perlu Perhatian",
-      "total_review": 5,
-      "review_positif": 2,
+      "skor": 69,
+      "status": "Pantau",
+      "total_review": 10,
+      "review_positif": 7,
       "review_negatif": 3,
       "aspek": {
         "Kualitas": {
@@ -1330,9 +323,9 @@
       "kata_kunci_positif": [
         "kopi",
         "ramah",
-        "jual",
+        "enak",
         "pilih",
-        "biji"
+        "beli"
       ],
       "kata_kunci_negatif": [
         "kopi",
@@ -1346,81 +339,81 @@
         "Analisis struktur biaya dengan konsultan Diskop",
         "Evaluasi strategi penetapan harga"
       ],
-      "contoh_review_positif": "Pilihan biji kopi nya beragam dan harga sangat terjangkau, pemilik juga ramah",
+      "contoh_review_positif": "Pilihan beragam, sebagai pecinta arabika, banyak opsi kopi enak dan mantap",
       "contoh_review_negatif": "Saya minta giling halus malah dikasih kasar"
     },
     {
-      "id": "R025",
+      "id": "R007",
       "nama": "Praketa",
       "pemilik": "-",
       "kategori": "Kuliner",
       "lokasi": "Purwokerto Utara",
       "produk_utama": "Kopi, minuman espresso based, makanan ringan, dan menu kafe",
-      "skor": 14,
+      "skor": 38,
       "status": "Kritis",
-      "total_review": 8,
-      "review_positif": 1,
-      "review_negatif": 7,
+      "total_review": 13,
+      "review_positif": 5,
+      "review_negatif": 8,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 50,
+          "skor_positif": 75,
           "terdeteksi": true,
           "keluhan_count": 1
         },
         "Packaging": {
-          "skor_positif": 33,
+          "skor_positif": 40,
           "terdeteksi": true,
-          "keluhan_count": 2
+          "keluhan_count": 3
         },
         "Harga": {
-          "skor_positif": 33,
+          "skor_positif": 60,
           "terdeteksi": true,
           "keluhan_count": 2
         },
         "Pengiriman": {
-          "skor_positif": 0,
+          "skor_positif": 50,
           "terdeteksi": true,
           "keluhan_count": 1
         }
       },
       "kata_kunci_positif": [
+        "makan",
         "personal",
         "here",
         "good",
-        "praketa",
-        "parkir"
+        "praketa"
       ],
       "kata_kunci_negatif": [
         "kurang",
-        "luas",
         "kopi",
-        "layan",
-        "enak"
+        "enak",
+        "luas",
+        "layan"
       ],
-      "masalah_utama": "Pengiriman",
+      "masalah_utama": "Packaging",
       "rekomendasi": [
-        "Rekomendasi mitra ekspedisi yang lebih handal",
-        "Pelatihan manajemen pengiriman",
-        "Ikutkan dalam pelatihan packaging Diskop"
+        "Ikutkan dalam pelatihan packaging Diskop",
+        "Konsultasi desain kemasan dengan mentor",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
       ],
-      "contoh_review_positif": "My personal experience here has always been good. Praketa nyaman banget untuk nugas. Ada colokan di setiap meja. Kalau kurang, bisa minta roll kabel tambahan. Pesan apapun juga free segelas air mineral. No bayar parkir, karena mereka juga menyediakan kartu parkir gratis. Daaaan,...",
+      "contoh_review_positif": "Okelah.. singkongnya ok banget... Kopi Wamena nya jossssnya pooolll... tempe Mendoaannya garing garing...",
       "contoh_review_negatif": "Punten ya min, habis dapet pelayanan yang kurang mengenakan dr mba mba nya, kalau menawarkan bisa jgn terlalu maksa gitu, mengangu kenyaman sebagai customer, apa lg dengan nada bicara yang kurang humbel, terimaksi????"
     },
     {
-      "id": "R026",
+      "id": "R008",
       "nama": "Batik Hadipriyanto",
       "pemilik": "-",
       "kategori": "Fashion",
       "lokasi": "Banyumas",
       "produk_utama": "Batik, kain, pakaian, dan suvenir berbahan kain",
-      "skor": 83,
+      "skor": 81,
       "status": "Baik",
-      "total_review": 6,
-      "review_positif": 5,
-      "review_negatif": 1,
+      "total_review": 10,
+      "review_positif": 8,
+      "review_negatif": 2,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 67,
+          "skor_positif": 83,
           "terdeteksi": true,
           "keluhan_count": 1
         },
@@ -1430,9 +423,9 @@
           "keluhan_count": 0
         },
         "Harga": {
-          "skor_positif": 75,
+          "skor_positif": 67,
           "terdeteksi": true,
-          "keluhan_count": 1
+          "keluhan_count": 2
         },
         "Pengiriman": {
           "skor_positif": 100,
@@ -1442,25 +435,25 @@
       },
       "kata_kunci_positif": [
         "batik",
+        "toko",
         "khas",
         "banyumas",
-        "pilih",
-        "motif"
+        "pilih"
       ],
       "kata_kunci_negatif": [
         "batik",
+        "sedia",
         "kain",
         "butik",
-        "asli",
-        "banyumas"
+        "asli"
       ],
-      "masalah_utama": "Kualitas",
+      "masalah_utama": "Harga",
       "rekomendasi": [
-        "Kunjungan lapangan untuk evaluasi proses produksi",
-        "Pendampingan quality control"
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga"
       ],
-      "contoh_review_positif": "Bagus nyaman banyak pilihan motif batiknya",
-      "contoh_review_negatif": "Butik Batik asli Banyumas. Tersedia kain dan busana pria dan wanita jadi. Sayangnya koleksi kurang lengkap. Untuk batik tulis selembar kain seharga ratusan hingga jutaan rupiah."
+      "contoh_review_positif": "Keren dan berkualitas",
+      "contoh_review_negatif": "Batiknya banyak pilihan. Pemesanan bisa juga melalui WA untuk mengecek ketersediaannya. Pembayaran juga dapat dilakukan secara non tunai."
     }
   ]
 }
