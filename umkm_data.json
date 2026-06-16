@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-08 20:42:12",
+  "generated_at": "2026-06-16 13:58:49",
   "sumber_data": "Google Maps (pengumpulan manual)",
-  "total_umkm": 8,
+  "total_umkm": 19,
   "ringkasan": {
-    "kritis": 2,
-    "perlu_perhatian": 1,
+    "kritis": 3,
+    "perlu_perhatian": 3,
     "pantau": 1,
-    "baik": 4
+    "baik": 12
   },
   "aspek_keluhan_global": {
-    "Harga": 14,
-    "Kualitas": 12,
-    "Packaging": 6,
-    "Pengiriman": 5
+    "Harga": 24,
+    "Kualitas": 20,
+    "Packaging": 8,
+    "Pengiriman": 8
   },
   "umkm": [
     {
@@ -203,32 +203,32 @@
       "kategori": "Kuliner",
       "lokasi": "Banyumas",
       "produk_utama": "Soto, makanan khas Purwokerto, dan minuman",
-      "skor": 36,
+      "skor": 22,
       "status": "Kritis",
-      "total_review": 15,
-      "review_positif": 7,
+      "total_review": 11,
+      "review_positif": 3,
       "review_negatif": 8,
       "aspek": {
         "Kualitas": {
-          "skor_positif": 56,
+          "skor_positif": 20,
           "terdeteksi": true,
           "keluhan_count": 4,
-          "positif_count": 5,
-          "total_mention": 9
+          "positif_count": 1,
+          "total_mention": 5
         },
         "Packaging": {
-          "skor_positif": 100,
-          "terdeteksi": true,
+          "skor_positif": 50,
+          "terdeteksi": false,
           "keluhan_count": 0,
-          "positif_count": 1,
-          "total_mention": 1
+          "positif_count": 0,
+          "total_mention": 0
         },
         "Harga": {
-          "skor_positif": 12,
+          "skor_positif": 0,
           "terdeteksi": true,
           "keluhan_count": 7,
-          "positif_count": 1,
-          "total_mention": 8
+          "positif_count": 0,
+          "total_mention": 7
         },
         "Pengiriman": {
           "skor_positif": 50,
@@ -240,10 +240,10 @@
       },
       "kata_kunci_positif": [
         "soto",
-        "makan",
+        "ayam",
         "sambal",
         "kacang",
-        "tidak"
+        "masak"
       ],
       "kata_kunci_negatif": [
         "mahal",
@@ -255,9 +255,10 @@
       "masalah_utama": "Harga",
       "rekomendasi": [
         "Analisis struktur biaya dengan konsultan Diskop",
-        "Evaluasi strategi penetapan harga"
+        "Evaluasi strategi penetapan harga",
+        "Kunjungan lapangan untuk evaluasi proses produksi"
       ],
-      "contoh_review_positif": "Istimewa , rasanya mantap .",
+      "contoh_review_positif": "Soto ayam yang nikmat, dengan suasana jadul yang legendaris.. Membuat kita seperti kembali ke tempo dulu.",
       "contoh_review_negatif": "Soto nya manis, spt nya tidak menggunakan vetsin atau penyedap rasa dan lbh mengandalkan gula sbg penyedap dan kuah kurang panas. Ketika mencoba tambah garam malah rasanya jadi aneh.  Utk penikmat soto dgn rasa yg gurih, agak kurang cocok."
     },
     {
@@ -510,6 +511,682 @@
       ],
       "contoh_review_positif": "Keren dan berkualitas",
       "contoh_review_negatif": ""
+    },
+    {
+      "id": "R009",
+      "nama": "Oemah Gamelan Pekunden",
+      "pemilik": "-",
+      "kategori": "Kerajinan",
+      "lokasi": "Pekunden, Kec. Banyumas",
+      "produk_utama": "Pusat produksi dan kerajinan alat musik gamelan Jawa tradisional. Merupakan UMKM kriya unggulan di Desa Wisata Pekunden, Banyumas.",
+      "skor": 82,
+      "status": "Baik",
+      "total_review": 13,
+      "review_positif": 13,
+      "review_negatif": 0,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        }
+      },
+      "kata_kunci_positif": [
+        "seni",
+        "gamelan",
+        "tari",
+        "karawitan",
+        "dalang"
+      ],
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "Tempatnya bagus",
+      "contoh_review_negatif": ""
+    },
+    {
+      "id": "R010",
+      "nama": "Healthy Fresh Hidroponik",
+      "pemilik": "-",
+      "kategori": "Pertanian",
+      "lokasi": "Banjarsari Wetan, Kec. Sumbang",
+      "produk_utama": "UMKM agribisnis lokal yang fokus pada produksi dan penjualan sayuran hidroponik segar berskala industri rumahan.",
+      "skor": 81,
+      "status": "Baik",
+      "total_review": 11,
+      "review_positif": 10,
+      "review_negatif": 1,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        }
+      },
+      "kata_kunci_positif": [
+        "sayur",
+        "fresh",
+        "sehat",
+        "hidroponik",
+        "jenis"
+      ],
+      "kata_kunci_negatif": [
+        "pas",
+        "tanam",
+        "kesini",
+        "tidak",
+        "smoga"
+      ],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "Hidroponik farm paling besar di Banyumas, dengan kualitas sayur super bagus",
+      "contoh_review_negatif": "Pas kesini.. pas lagi tidak tanam.. Smoga segera mulai tanam lagi.. aamiin"
+    },
+    {
+      "id": "R011",
+      "nama": "Dekranasda Banyumas",
+      "pemilik": "-",
+      "kategori": "Kerajinan",
+      "lokasi": "Purwokerto",
+      "produk_utama": "Produk kerajinan UMKM",
+      "skor": 89,
+      "status": "Baik",
+      "total_review": 4,
+      "review_positif": 4,
+      "review_negatif": 0,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        }
+      },
+      "kata_kunci_positif": [
+        "rajin",
+        "kota",
+        "produk",
+        "lengkap",
+        "harga"
+      ],
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "Produk kerajinannya lengkap & harga terjangkau",
+      "contoh_review_negatif": ""
+    },
+    {
+      "id": "R012",
+      "nama": "Sekar Jagad Batik",
+      "pemilik": "-",
+      "kategori": "Fashion",
+      "lokasi": "Purwokerto",
+      "produk_utama": "pakaian batik",
+      "skor": 79,
+      "status": "Baik",
+      "total_review": 8,
+      "review_positif": 7,
+      "review_negatif": 1,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 4,
+          "total_mention": 5
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        }
+      },
+      "kata_kunci_positif": [
+        "batik",
+        "pilih",
+        "harga",
+        "nyaman",
+        "belanja"
+      ],
+      "kata_kunci_negatif": [
+        "kaya",
+        "tamu",
+        "dinyalain",
+        "panas",
+        "layan"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "Pelayanan ramah, koleksi cantik dan harga yg juga ramah di kantong.",
+      "contoh_review_negatif": "AC nya kayanya kl ada tamu ga dinyalain , jadi agak panas untuk pelayanan oke punya, koleksi baju juga bagus2"
+    },
+    {
+      "id": "R013",
+      "nama": "Istana Madu Purwokerto",
+      "pemilik": "-",
+      "kategori": "Pertanian",
+      "lokasi": "Purwokerto",
+      "produk_utama": "madu murni",
+      "skor": 90,
+      "status": "Baik",
+      "total_review": 6,
+      "review_positif": 6,
+      "review_negatif": 0,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 6,
+          "total_mention": 6
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        }
+      },
+      "kata_kunci_positif": [
+        "madu",
+        "murni",
+        "asli",
+        "istana",
+        "ragu"
+      ],
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "madunya mantap, terasa enak d badan maju trs Istana Madu ???? …",
+      "contoh_review_negatif": ""
+    },
+    {
+      "id": "R014",
+      "nama": "Satria Digital Media",
+      "pemilik": "-",
+      "kategori": "Teknologi",
+      "lokasi": "Banyumas",
+      "produk_utama": "Internet Provider",
+      "skor": 95,
+      "status": "Baik",
+      "total_review": 7,
+      "review_positif": 7,
+      "review_negatif": 0,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 5,
+          "total_mention": 5
+        }
+      },
+      "kata_kunci_positif": [
+        "layan",
+        "cepat",
+        "internet",
+        "stabil",
+        "ramah"
+      ],
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "udah lama berlangganan di SATRIANET, overall puas dengan kinerjanya. Kecepatan internet yang ditawarkan stabil dan sesuai dengan paket yang dipilih, pelayanannya juga fastrespon. pokoknya recommended pakai SATRIANET",
+      "contoh_review_negatif": ""
+    },
+    {
+      "id": "R015",
+      "nama": "Jamu Tingbao",
+      "pemilik": "-",
+      "kategori": "Kesehatan",
+      "lokasi": "Purwokerto Timur",
+      "produk_utama": "Jamu",
+      "skor": 38,
+      "status": "Kritis",
+      "total_review": 12,
+      "review_positif": 5,
+      "review_negatif": 7,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 60,
+          "terdeteksi": true,
+          "keluhan_count": 2,
+          "positif_count": 3,
+          "total_mention": 5
+        },
+        "Packaging": {
+          "skor_positif": 0,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 0,
+          "total_mention": 1
+        },
+        "Harga": {
+          "skor_positif": 17,
+          "terdeteksi": true,
+          "keluhan_count": 5,
+          "positif_count": 1,
+          "total_mention": 6
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        }
+      },
+      "kata_kunci_positif": [
+        "toko",
+        "obat",
+        "herbal",
+        "jamu",
+        "purwokerto"
+      ],
+      "kata_kunci_negatif": [
+        "mahal",
+        "toko",
+        "bayar",
+        "tuduh",
+        "kalo"
+      ],
+      "masalah_utama": "Packaging",
+      "rekomendasi": [
+        "Ikutkan dalam pelatihan packaging Diskop",
+        "Konsultasi desain kemasan dengan mentor",
+        "Analisis struktur biaya dengan konsultan Diskop"
+      ],
+      "contoh_review_positif": "Toko Djamu Ting Bao menyediakan jamu dan berbagai obat herbal dengan harga yang murah termasuk Capsul untuk Stamina Priya.",
+      "contoh_review_negatif": "Aku emang frontal. Tapi aku perbaiki kata²nya demi seseorang. Udah bayar dituduh belum bayar dan dipermalukan. Padahal diakhirpun terbukti sudah bayar. Ini sangat mengecewakan, kalopun salah paham bisa dibicarakan dengan baik, bukan langsung menuduh. Dan beneran bikin sakit..."
+    },
+    {
+      "id": "R016",
+      "nama": "Toko Obat dan Herbal Berkat",
+      "pemilik": "-",
+      "kategori": "Kesehatan",
+      "lokasi": "Purwokerto Timur",
+      "produk_utama": "Obat Herbal",
+      "skor": 52,
+      "status": "Perlu Perhatian",
+      "total_review": 9,
+      "review_positif": 6,
+      "review_negatif": 3,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Harga": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 1,
+          "total_mention": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 2,
+          "positif_count": 2,
+          "total_mention": 4
+        }
+      },
+      "kata_kunci_positif": [
+        "obat",
+        "toko",
+        "purwokerto",
+        "jalan",
+        "herbal"
+      ],
+      "kata_kunci_negatif": [
+        "infeksi",
+        "obat",
+        "toko",
+        "tidak",
+        "kasih"
+      ],
+      "masalah_utama": "Harga",
+      "rekomendasi": [
+        "Analisis struktur biaya dengan konsultan Diskop",
+        "Evaluasi strategi penetapan harga",
+        "Rekomendasi mitra ekspedisi yang lebih handal"
+      ],
+      "contoh_review_positif": "Saya selalu cocok beli obat disini masuk rumah sakit bolak-balik nda sembuh tp disini 65rb Alhamdulillah percaya tidak percaya langsung jalan n bs subuhan dimushola lagi terimakasih ya toko berkat semoga usahanya lancar dan sukses selalu buat umat amin",
+      "contoh_review_negatif": "Mohon maaf toko tidak profesional, ditelpon bilang, anyang2an, sama infeksi saluran kemih akut, yang dikasih obat infeksi biasa dikasih alternatif obat infeksi biasa. Harganya 1,2-1,9 emosi"
+    },
+    {
+      "id": "R017",
+      "nama": "Istana Meubel Sabar Jaya",
+      "pemilik": "-",
+      "kategori": "Rumah Tangga",
+      "lokasi": "Purwokerto Barat",
+      "produk_utama": "Meubel Kayu",
+      "skor": 84,
+      "status": "Baik",
+      "total_review": 7,
+      "review_positif": 6,
+      "review_negatif": 1,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 67,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 2,
+          "total_mention": 3
+        },
+        "Packaging": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        },
+        "Harga": {
+          "skor_positif": 75,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 3,
+          "total_mention": 4
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": false,
+          "keluhan_count": 0,
+          "positif_count": 0,
+          "total_mention": 0
+        }
+      },
+      "kata_kunci_positif": [
+        "lengkap",
+        "mebel",
+        "variasi",
+        "harga",
+        "ramah"
+      ],
+      "kata_kunci_negatif": [
+        "harga",
+        "mahal",
+        "barang",
+        "murah",
+        "depo"
+      ],
+      "masalah_utama": "Kualitas",
+      "rekomendasi": [
+        "Kunjungan lapangan untuk evaluasi proses produksi",
+        "Pendampingan quality control"
+      ],
+      "contoh_review_positif": "Lengkap ramah dan murah",
+      "contoh_review_negatif": "Mahal, barang sama tapi harga jauh lebih murah di depo.. selisih bisa 0.5jt. itu aja udah harga diskon... Kapok belanja disini..."
+    },
+    {
+      "id": "R018",
+      "nama": "Cilengko Farm Purwokerto",
+      "pemilik": "-",
+      "kategori": "Pertanian",
+      "lokasi": "Purwokerto Utara",
+      "produk_utama": "Bibit Tanaman",
+      "skor": 81,
+      "status": "Baik",
+      "total_review": 9,
+      "review_positif": 9,
+      "review_negatif": 0,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 4,
+          "total_mention": 4
+        },
+        "Packaging": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 3,
+          "total_mention": 3
+        },
+        "Harga": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 2,
+          "total_mention": 2
+        },
+        "Pengiriman": {
+          "skor_positif": 100,
+          "terdeteksi": true,
+          "keluhan_count": 0,
+          "positif_count": 1,
+          "total_mention": 1
+        }
+      },
+      "kata_kunci_positif": [
+        "buah",
+        "lemon",
+        "tanam",
+        "bibit",
+        "jenis"
+      ],
+      "kata_kunci_negatif": [],
+      "masalah_utama": "Tidak ada",
+      "rekomendasi": [
+        "Pertahankan kualitas produk dan layanan saat ini",
+        "Berpotensi dijadikan UMKM percontohan binaan Diskop"
+      ],
+      "contoh_review_positif": "Sangat bagus. Harga terjangkau. Pelayanan yang luar biasa.",
+      "contoh_review_negatif": ""
+    },
+    {
+      "id": "R019",
+      "nama": "Rumah Batik Anto Djamil",
+      "pemilik": "-",
+      "kategori": "Kerajinan",
+      "lokasi": "Sokaraja",
+      "produk_utama": "Fashion batik, seragam, & kain nusantara",
+      "skor": 52,
+      "status": "Perlu Perhatian",
+      "total_review": 17,
+      "review_positif": 8,
+      "review_negatif": 9,
+      "aspek": {
+        "Kualitas": {
+          "skor_positif": 56,
+          "terdeteksi": true,
+          "keluhan_count": 4,
+          "positif_count": 5,
+          "total_mention": 9
+        },
+        "Packaging": {
+          "skor_positif": 80,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 4,
+          "total_mention": 5
+        },
+        "Harga": {
+          "skor_positif": 62,
+          "terdeteksi": true,
+          "keluhan_count": 3,
+          "positif_count": 5,
+          "total_mention": 8
+        },
+        "Pengiriman": {
+          "skor_positif": 50,
+          "terdeteksi": true,
+          "keluhan_count": 1,
+          "positif_count": 1,
+          "total_mention": 2
+        }
+      },
+      "kata_kunci_positif": [
+        "batik",
+        "layan",
+        "harga",
+        "ramah",
+        "lengkap"
+      ],
+      "kata_kunci_negatif": [
+        "tidak",
+        "batik",
+        "layan",
+        "ramah",
+        "mahal"
+      ],
+      "masalah_utama": "Pengiriman",
+      "rekomendasi": [
+        "Rekomendasi mitra ekspedisi yang lebih handal",
+        "Pelatihan manajemen pengiriman"
+      ],
+      "contoh_review_positif": "Oke banget lengkap kulaitas okey. Harga damai sesuai kemqmpuan utk seragam kantor dll",
+      "contoh_review_negatif": "ga ramah pelayananannya, judes mba mbanya hmmm kecewa"
     }
   ]
 }
